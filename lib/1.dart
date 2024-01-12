@@ -255,7 +255,6 @@ class MyApp extends StatelessWidget {
                     fontWeight: FontWeight.bold,
                     fontSize: 40,
                     letterSpacing: 5,
-
                   )
                   ),
                 ]
