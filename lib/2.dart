@@ -38,7 +38,7 @@ class MyApp extends StatelessWidget {
             text:const TextSpan(
                 children: <TextSpan>[
                   TextSpan(
-                    text: '🍎 Apple\n\n',style: TextStyle(
+                    text: '🍎 Apple\n',style: TextStyle(
                     color: Colors.red,
                     fontSize: 40,
                     fontWeight: FontWeight.bold,
