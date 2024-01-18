@@ -101,7 +101,10 @@ class MyApp extends StatelessWidget {
                       letterSpacing: 4
                   )
                   ),
-                  aayush(name: "🫐  Berry \n", color: Colors.blueAccent, fontsize: 40, letterspacing: 2),
+                  aayush(name: "🫐  Berry \n",
+                      color: Colors.blueAccent,
+                      fontsize: 40,
+                      letterspacing: 2),
                   TextSpan(
                     text: '🥥 Coconut\n', style: TextStyle(
                     color: Colors.brown,
