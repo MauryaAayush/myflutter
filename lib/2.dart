@@ -35,7 +35,7 @@ class MyApp extends StatelessWidget {
         ),
         body: Center(
           child: RichText(
-            text:const TextSpan(
+            text: TextSpan(
                 children: <TextSpan>[
                   TextSpan(
                     text: '🍎 Apple\n',style: TextStyle(
@@ -101,6 +101,7 @@ class MyApp extends StatelessWidget {
                       letterSpacing: 4
                   )
                   ),
+                  aayush(name: "🫐  Berry \n", color: Colors.blueAccent, fontsize: 40, letterspacing: 2),
                   TextSpan(
                     text: '🥥 Coconut\n', style: TextStyle(
                     color: Colors.brown,
@@ -109,6 +110,7 @@ class MyApp extends StatelessWidget {
                       letterSpacing: 4
                   )
                   ),
+
                 ]
             ),
           ),
@@ -120,7 +122,10 @@ class MyApp extends StatelessWidget {
   }
 }
 
-
+ TextSpan aayush( {String? name, required Color color, required double fontsize,required double letterspacing })
+ {
+    return TextSpan(text: name, style: TextStyle( color :color,fontSize : fontsize ));
+ }
 
 
 

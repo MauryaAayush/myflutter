@@ -11,61 +11,22 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      debugShowCheckedModeBanner: false,
+      // debugShowCheckedModeBanner: ,
 
       theme: ThemeData(
 
         // useMaterial3: true,
       ),
-      home: SafeArea(child:
-      Scaffold(
-        appBar: AppBar(
-          backgroundColor: Colors.red,
-
-          title:const Text('My RNW',style: TextStyle(
-              color: Colors.white,
-              fontWeight: FontWeight.w500
-
-          ),
-          ),
-          centerTitle: true,
-        ),
-        body: Center(
-          child: RichText(
-            text:const TextSpan(
-                children: <TextSpan>[
-                  TextSpan(
-                    text: 'Red & White\n',
-                    style: TextStyle(color: Colors.red,fontSize: 65,
-                      decoration: TextDecoration.underline,
-                      decorationColor: Colors.red,
-                      decorationThickness: 1.14,
-                      fontWeight: FontWeight.bold,
-                    ),
-                  ),
-                  TextSpan(
-                    text: '    Multimedia Education\n',
-                    style: TextStyle(color: Colors.red,
-                      fontSize: 30,
-                      fontWeight: FontWeight.bold,
-
-                    ),
-
-                  ),
-                  TextSpan(
-                    text: '   Shaping "skills"  for "scaling" higher...!!! ',
-                    style: TextStyle(color: Colors.red,
-                      fontSize: 19,
-                      fontWeight: FontWeight.w600,
-                    ),
-
-                  ),
-                ]
-            ),
-          ),
-        ),
-      ),
-      ),
+     home:  SafeArea(
+       child: Scaffold(
+         appBar: AppBar(
+           title: const Text('Flutter App'),
+         ),
+         body: const Center(
+           child: Text('Hello Flutter'),
+         ),
+       ),
+     ),
 
     );
   }
