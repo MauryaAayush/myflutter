@@ -36,12 +36,29 @@ class MyApp extends StatelessWidget {
             body: Center(
 
               child: Container(
-                height: 330,
-                width: 330,
+                alignment: Alignment.center,
+                height: 300,
+                width: 300,
                 decoration: BoxDecoration(
                   color: Color(0xFF4CAF50)
                 ),
+                child: Container(
+                  alignment: Alignment.center,
+                  height: 230,
+                  width: 230,
+                  decoration: BoxDecoration(
+                    color: Color(0xFFB2FF59),
+                  ),
 
+                  child: Container(
+                    alignment: Alignment.center,
+                    child: Text('OOOO',style: TextStyle(
+                      fontSize: 80,
+                      letterSpacing: -25l
+                      ,
+                    ),)
+                  ),
+                ),
               ),
             )
         ),
