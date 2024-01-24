@@ -45,25 +45,3 @@ class MyApp extends StatelessWidget {
 
 
 
-// Text.rich(
-// TextSpan(
-// text: 'Red & White\n',
-// style: TextStyle(
-// color: Colors.red,
-// fontSize: 65,
-// fontWeight: FontWeight.bold,
-// decoration : TextDecoration.underline,
-// decorationColor: Colors.red,
-// decorationThickness: 1.14,
-// ),
-// children: <TextSpan>[
-// TextSpan(
-// text: '    Multimedia Education\n',
-// style: TextStyle(
-// decoration: TextDecoration.none,
-// fontWeight: FontWeight.bold,
-// fontSize: 30,
-//
-// )
-// )
-// TextSpan()
