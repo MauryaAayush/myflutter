@@ -53,8 +53,9 @@ class MyApp extends StatelessWidget {
                   child: Container(
                     alignment: Alignment.center,
                     child: Text('OOOO',style: TextStyle(
-                      fontSize: 80,
-                      letterSpacing: -25,
+                      color: Color(0xFF31461B),
+                      fontSize: 100,
+                      letterSpacing: -35,
                     ),)
                   ),
                 ),
