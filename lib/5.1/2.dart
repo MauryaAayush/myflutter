@@ -24,17 +24,44 @@ class MyApp extends StatelessWidget {
         child: Scaffold(
             appBar: AppBar(
               backgroundColor: Color(0XffFF5252),
-
               title: const Text(
                 'Mission of RNW',
                 style: TextStyle(
-
                   color: Colors.white,
                 ),
               ),
+              centerTitle: true,
             ),
             body: Center(
-              child: Container(),
+              child: Container(
+                alignment: Alignment.center,
+                height: 110,
+                width: 330,
+                decoration: BoxDecoration(
+                    color: Color(0xFFFCC8C8),
+                    border: Border(
+                      left: BorderSide(width: 12, color: Color(0xFFFF5252)),
+                    )
+                ),
+                child: RichText(
+                  text: TextSpan(
+                    children: <TextSpan>[
+                      TextSpan(text: 'Shaping "skills" for "scaling" higher\n',style: TextStyle(
+                        color: Colors.black,
+                        fontSize: 19,
+                        fontWeight: FontWeight.bold,
+
+                      )),
+                      TextSpan(text: '- RNW',style: TextStyle(
+                        color: Colors.black,
+                        fontSize: 20,
+                        fontWeight: FontWeight.w400,
+                      )
+                      ),
+                    ]
+                  ),
+                )
+              ),
             )),
       ),
     );
