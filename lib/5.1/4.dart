@@ -24,7 +24,21 @@ class MyApp extends StatelessWidget {
             ),
             body: Center(
               child: Container(
-
+                height: 360,
+                  width: 230,
+                  decoration: const BoxDecoration(
+                    color: Colors.green,
+                    border: Border.symmetric(
+                      vertical: BorderSide(
+                        color: Colors.white,
+                        width: 50,
+                      ),
+                      horizontal: BorderSide(
+                        color: Colors.green,
+                        width: 50,
+                      ),
+                    ),
+                  ),
               ),
             )
         ),

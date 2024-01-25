@@ -1,6 +1,11 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
+
 
 void main() {
+  SystemChrome.setSystemUIOverlayStyle(const SystemUiOverlayStyle(
+    statusBarColor: Color(0xFFBF3D3D),
+  ));
   runApp(const MyApp());
 }
 
@@ -11,7 +16,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      // debugShowCheckedModeBanner: ,
+      debugShowCheckedModeBanner: false,
 
       theme: ThemeData(
 
@@ -20,11 +25,59 @@ class MyApp extends StatelessWidget {
       home:  SafeArea(
         child: Scaffold(
             appBar: AppBar(
-              title: const Text('Flutter App'),
+              backgroundColor: Color(0XffFF5252),
+              title: const Text('Mix-up', style: TextStyle(
+                color: Colors.white,
+              ),),
+              centerTitle: true,
             ),
             body: Center(
               child: Container(
-
+                alignment: Alignment.bottomRight,
+                height: 450,
+                width: 450,
+                decoration: BoxDecoration(
+                  color: Colors.blue,
+                ),
+                child: Container(
+                  alignment: Alignment.bottomRight,
+                  height: 390,
+                  width: 345,
+                  decoration: BoxDecoration(
+                    color: Colors.yellowAccent,
+                  ),
+                  child: Container(
+                    alignment: Alignment.topLeft,
+                    height: 330,
+                    width: 300,
+                    decoration: BoxDecoration(
+                      color: Colors.pink,
+                    ),
+                    child: Container(
+                      alignment: Alignment.topLeft,
+                      height: 280,
+                      width: 240,
+                      decoration: BoxDecoration(
+                        color: Colors.orange
+                      ),
+                      child: Container(
+                        alignment: Alignment.center,
+                        height: 220,
+                        width: 185,
+                        decoration: BoxDecoration(
+                          color: Colors.green,
+                        ),
+                        child: Container(
+                          height: 145,
+                          width: 145,
+                          decoration: BoxDecoration(
+                            color: Colors.cyanAccent
+                          ),
+                        ),
+                      )
+                    ),
+                  ),
+                ),
               ),
             )
         ),
