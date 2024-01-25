@@ -24,9 +24,11 @@ class MyApp extends StatelessWidget {
         child: Scaffold(
             appBar: AppBar(
               backgroundColor: Color(0XffFF5252),
+
               title: const Text(
                 'Mission of RNW',
                 style: TextStyle(
+
                   color: Colors.white,
                 ),
               ),
