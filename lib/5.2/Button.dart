@@ -28,37 +28,14 @@ class MyApp extends StatelessWidget {
               backgroundColor: Color(0xFF8BC34A),
 
               title: const Text('My app',style: TextStyle(
-                color: Colors.white
+                  color: Colors.white
               ),),
               centerTitle: true,
 
             ),
             body: Center(
 
-              child: Container(
-                alignment: Alignment.center,
-                height: 300,
-                width: 300,
-                decoration: BoxDecoration(
-                  color: Color(0xFF4CAF50)
-                ),
-                child: Container(
-                  alignment: Alignment.center,
-                  height: 230,
-                  width: 230,
-                  decoration: BoxDecoration(
-                    color: Color(0xFFB2FF59),
-                  ),
 
-                  child: Container(
-                    alignment: Alignment.center,
-                    child: Text('OOOO',style: TextStyle(
-                      fontSize: 80,
-                      letterSpacing: -25,
-                    ),)
-                  ),
-                ),
-              ),
             )
         ),
       ),
