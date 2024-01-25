@@ -1,6 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 
 void main() {
+  SystemChrome.setSystemUIOverlayStyle(const SystemUiOverlayStyle(
+    statusBarColor: Color(0xFFBF3D3D),
+  ));
   runApp(const MyApp());
 }
 
@@ -11,37 +15,26 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      // debugShowCheckedModeBanner: ,
-
+      debugShowCheckedModeBanner: false,
       theme: ThemeData(
 
-        // useMaterial3: true,
-      ),
-      home:  SafeArea(
-        child: Scaffold(
-          appBar: AppBar(
-            title: const Text('Flutter App'),
+          // useMaterial3: true,
           ),
-          body: Center(
-            child: Container(
-
+      home: SafeArea(
+        child: Scaffold(
+            appBar: AppBar(
+              backgroundColor: Color(0XffFF5252),
+              title: const Text(
+                'Mission of RNW',
+                style: TextStyle(
+                  color: Colors.white,
+                ),
+              ),
             ),
-          )
-        ),
+            body: Center(
+              child: Container(),
+            )),
       ),
-
     );
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-

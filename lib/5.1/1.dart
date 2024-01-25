@@ -16,32 +16,27 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-
       theme: ThemeData(
 
-        // useMaterial3: true,
-      ),
-      home:  SafeArea(
+          // useMaterial3: true,
+          ),
+      home: SafeArea(
         child: Scaffold(
             backgroundColor: Color(0xFF689237),
             appBar: AppBar(
               backgroundColor: Color(0xFF8BC34A),
-
-              title: const Text('My app',style: TextStyle(
-                color: Colors.white
-              ),),
+              title: const Text(
+                'My app',
+                style: TextStyle(color: Colors.white),
+              ),
               centerTitle: true,
-
             ),
             body: Center(
-
               child: Container(
                 alignment: Alignment.center,
                 height: 300,
                 width: 300,
-                decoration: BoxDecoration(
-                  color: Color(0xFF4CAF50)
-                ),
+                decoration: BoxDecoration(color: Color(0xFF4CAF50)),
                 child: Container(
                   alignment: Alignment.center,
                   height: 230,
@@ -49,33 +44,20 @@ class MyApp extends StatelessWidget {
                   decoration: BoxDecoration(
                     color: Color(0xFFB2FF59),
                   ),
-
                   child: Container(
-                    alignment: Alignment.center,
-                    child: Text('OOOO',style: TextStyle(
-                      color: Color(0xFF31461B),
-                      fontSize: 100,
-                      letterSpacing: -35,
-                    ),)
-                  ),
+                      alignment: Alignment.center,
+                      child: Text(
+                        'OOOO',
+                        style: TextStyle(
+                          color: Color(0xFF31461B),
+                          fontSize: 100,
+                          letterSpacing: -35,
+                        ),
+                      )),
                 ),
               ),
-            )
-        ),
+            )),
       ),
-
     );
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
