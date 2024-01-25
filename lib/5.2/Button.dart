@@ -39,9 +39,9 @@ class MyApp extends StatelessWidget {
                   boxShadow: [
                     BoxShadow(
                       color: Colors.pinkAccent,
-                      blurRadius: 50,
-                      spreadRadius: 10,
-                      offset: Offset(10,20),
+                      blurRadius: 100,
+                      spreadRadius: 5,
+                      offset: Offset(5,25),
                     )
                   ],
                   // color: Colors.cyanAccent,
