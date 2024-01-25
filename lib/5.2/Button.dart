@@ -35,12 +35,12 @@ class MyApp extends StatelessWidget {
                 alignment: Alignment.center,
                 height: 70,
                 width: 190,
-                decoration: BoxDecoration(
+                decoration: const BoxDecoration(
                   boxShadow: [
                     BoxShadow(
                       color: Colors.pinkAccent,
-                      blurRadius: 100,
-                      spreadRadius: 5,
+                      blurRadius: 50,
+                      spreadRadius: 3,
                       offset: Offset(5,25),
                     )
                   ],
@@ -55,11 +55,12 @@ class MyApp extends StatelessWidget {
                     begin: Alignment.topLeft,
                   )
                 ),
-                child: Text(
+                child: const Text(
                   'Call on action',
                   style: TextStyle(
                     color: Colors.white,
                     fontSize: 20,
+                    letterSpacing: 1,
                     fontWeight: FontWeight.w500,
                   ),
                 ),
