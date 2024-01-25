@@ -36,6 +36,14 @@ class MyApp extends StatelessWidget {
                 height: 70,
                 width: 190,
                 decoration: BoxDecoration(
+                  boxShadow: [
+                    BoxShadow(
+                      color: Colors.pinkAccent,
+                      blurRadius: 50,
+                      spreadRadius: 10,
+                      offset: Offset(10,20),
+                    )
+                  ],
                   // color: Colors.cyanAccent,
                   borderRadius: BorderRadius.all(Radius.circular(50)),
                   gradient: LinearGradient(
