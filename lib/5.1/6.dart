@@ -1,5 +1,3 @@
-import 'dart:io';
-
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
@@ -28,7 +26,7 @@ class MyApp extends StatelessWidget {
       home:  SafeArea(
         child: Scaffold(
             appBar: AppBar(
-              backgroundColor: Color(0xFF009688),
+              backgroundColor: const Color(0xFF009688),
               title: const Text('3D Cube',
                 style: TextStyle(
                 color: Colors.white),
@@ -39,7 +37,7 @@ class MyApp extends StatelessWidget {
               child: Container(
                 height: 250,
                 width: 250,
-                decoration: BoxDecoration(
+                decoration: const BoxDecoration(
                   color: Color(0xFF009688),
                   border: Border.symmetric(
                     vertical: BorderSide(
