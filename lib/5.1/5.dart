@@ -40,23 +40,22 @@ class MyApp extends StatelessWidget {
                   height: 270,
                   width: 270,
                   decoration: const BoxDecoration(
-                    color: Color(0xFF4CAF50),
-                    border: Border.symmetric(
-                      vertical: BorderSide(
-                        color: Color(0xFF4CAF50),
-                        width: 118,
-                      ),
-                      horizontal: BorderSide(
-                        color: Color(0xFF72C075),
-                        width: 115,
+                      color: Color(0xFF4CAF50),
+                      border: Border.symmetric(
+                          vertical: BorderSide(
+                            color: Color(0xFF4CAF50),
+                            width: 118,
+                          ),
+                          horizontal: BorderSide(
+                            color: Color(0xFF72C075),
+                            width: 115,
+                          )
                       )
-
-                    )
                   ),
-
                 ),
               ),
-            )),
+            )
+        ),
       ),
     );
   }
