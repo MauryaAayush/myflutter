@@ -24,7 +24,7 @@ class MyApp extends StatelessWidget {
       home: SafeArea(
         child: Scaffold(
             appBar: AppBar(
-              backgroundColor: Color(0xFF4CAF50),
+              backgroundColor: const Color(0xFF4CAF50),
               title: const Text(
                 'Letter Cover',
                 style: TextStyle(
