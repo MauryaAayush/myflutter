@@ -16,20 +16,21 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-
       theme: ThemeData(
 
-        // useMaterial3: true,
-      ),
-      home:  SafeArea(
+          // useMaterial3: true,
+          ),
+      home: SafeArea(
         child: Scaffold(
-          // backgroundColor: Colors.red,
+            // backgroundColor: Colors.red,
             appBar: AppBar(
               backgroundColor: const Color(0xFF795548),
-              title: const Text('Mashal',style: TextStyle(
-                color: Colors.white,
-                fontSize: 25,
-              ),
+              title: const Text(
+                'Mashal',
+                style: TextStyle(
+                  color: Colors.white,
+                  fontSize: 25,
+                ),
               ),
               centerTitle: true,
             ),
@@ -38,54 +39,35 @@ class MyApp extends StatelessWidget {
                 // alignment: Alignment.topRight,
                 height: 230,
                 width: 170,
-                decoration: BoxDecoration(
-                  boxShadow: [
-                    BoxShadow(
-                      color: Colors.grey,
-                      blurRadius: 0.1,
-                    )
-                  ],
-                  color:Colors.brown,
-                  border: Border.symmetric(
-                    vertical: BorderSide(
-                      color: Colors.white,
-                      width: 50,
-                      // strokeAlign: 0.1
-                    ),
-                    horizontal: BorderSide(
-                      color: Color(0xFF87665B),
-                      width: 30,
+                decoration: const BoxDecoration(
+                    boxShadow: [
+                      BoxShadow(
+                        color: Colors.grey,
+                        blurRadius: 0.1,
+                      )
+                    ],
+                    color: Colors.brown,
+                    border: Border.symmetric(
+                        vertical: BorderSide(
+                          color: Colors.white,
+                          width: 50,
+                          // strokeAlign: 0.1
+                        ),
+                        horizontal: BorderSide(
+                          color: Color(0xFF87665B),
+                          width: 30,
+                        ))),
 
-                    )
-                  )
-                ),
-
-                child: Container(
-
-                  child: Text(
-                    '🔥',style: TextStyle(
+                child: const Text(
+                  '🔥',
+                  style: TextStyle(
                     height: -2.2,
                     fontSize: 55,
                   ),
-                  ),
                 ),
               ),
-            )
-        ),
+            )),
       ),
-
     );
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-

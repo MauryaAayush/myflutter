@@ -23,7 +23,7 @@ class MyApp extends StatelessWidget {
       home: SafeArea(
         child: Scaffold(
             appBar: AppBar(
-              backgroundColor: Color(0XffFF5252),
+              backgroundColor: const Color(0XffFF5252),
               title: const Text(
                 'Mission of RNW',
                 style: TextStyle(
@@ -37,14 +37,14 @@ class MyApp extends StatelessWidget {
                 alignment: Alignment.center,
                 height: 110,
                 width: 330,
-                decoration: BoxDecoration(
+                decoration: const BoxDecoration(
                     color: Color(0xFFFCC8C8),
                     border: Border(
                       left: BorderSide(width: 12, color: Color(0xFFFF5252)),
                     )
                 ),
                 child: RichText(
-                  text: TextSpan(
+                  text: const TextSpan(
                     children: <TextSpan>[
                       TextSpan(text: 'Shaping "skills" for "scaling" higher\n',style: TextStyle(
                         color: Colors.black,
@@ -67,3 +67,4 @@ class MyApp extends StatelessWidget {
     );
   }
 }
+

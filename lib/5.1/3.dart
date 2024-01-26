@@ -25,7 +25,7 @@ class MyApp extends StatelessWidget {
       home:  SafeArea(
         child: Scaffold(
             appBar: AppBar(
-              backgroundColor: Color(0XffFF5252),
+              backgroundColor: const Color(0XffFF5252),
               title: const Text('Mix-up', style: TextStyle(
                 color: Colors.white,
               ),),
@@ -36,41 +36,41 @@ class MyApp extends StatelessWidget {
                 alignment: Alignment.bottomRight,
                 height: 450,
                 width: 450,
-                decoration: BoxDecoration(
+                decoration: const BoxDecoration(
                   color: Colors.blue,
                 ),
                 child: Container(
                   alignment: Alignment.bottomRight,
                   height: 390,
                   width: 345,
-                  decoration: BoxDecoration(
+                  decoration: const BoxDecoration(
                     color: Colors.yellowAccent,
                   ),
                   child: Container(
                     alignment: Alignment.topLeft,
                     height: 330,
                     width: 300,
-                    decoration: BoxDecoration(
+                    decoration: const BoxDecoration(
                       color: Colors.pink,
                     ),
                     child: Container(
                       alignment: Alignment.topLeft,
                       height: 280,
                       width: 240,
-                      decoration: BoxDecoration(
+                      decoration: const BoxDecoration(
                         color: Colors.orange
                       ),
                       child: Container(
                         alignment: Alignment.center,
                         height: 220,
                         width: 185,
-                        decoration: BoxDecoration(
+                        decoration: const BoxDecoration(
                           color: Colors.green,
                         ),
                         child: Container(
                           height: 145,
                           width: 145,
-                          decoration: BoxDecoration(
+                          decoration: const BoxDecoration(
                             color: Colors.cyanAccent
                           ),
                         ),
@@ -80,6 +80,7 @@ class MyApp extends StatelessWidget {
                 ),
               ),
             )
+
         ),
       ),
 

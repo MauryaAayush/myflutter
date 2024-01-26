@@ -46,7 +46,7 @@ class MyApp extends StatelessWidget {
                   ),
                   child: Container(
                       alignment: Alignment.center,
-                      child: Text(
+                      child: const Text(
                         'OOOO',
                         style: TextStyle(
                           color: Color(0xFF31461B),
