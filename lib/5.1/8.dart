@@ -4,7 +4,7 @@ import 'package:flutter/services.dart';
 void main() {
   SystemChrome.setSystemUIOverlayStyle(
     const SystemUiOverlayStyle(
-      statusBarColor: Colors.blue,
+      statusBarColor: Colors.grey,
     ),
   );
   runApp(const MyApp());
@@ -86,10 +86,14 @@ class MyApp extends StatelessWidget {
                 ),
               ),
               AppBar(
-                backgroundColor: Colors.blue, // Set the background color of the title bar
+                backgroundColor: Colors.orange, // Set the background color of the title bar
                 centerTitle: true,
-                title: const Text('Bottom Title'),
-                toolbarHeight: 30,
+                title: const Text('Emoji',style: TextStyle(
+                  color: Colors.white,
+                  fontSize: 28,
+
+                ),),
+                toolbarHeight: 70,
               ),
             ],
           ),
