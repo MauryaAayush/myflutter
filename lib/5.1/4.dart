@@ -25,7 +25,7 @@ class MyApp extends StatelessWidget {
         child: Scaffold(
           // backgroundColor: Colors.red,
             appBar: AppBar(
-              backgroundColor: Color(0xFF795548),
+              backgroundColor: const Color(0xFF795548),
               title: const Text('Mashal',style: TextStyle(
                 color: Colors.white,
                 fontSize: 25,
@@ -35,11 +35,17 @@ class MyApp extends StatelessWidget {
             ),
             body: Center(
               child: Container(
+                // alignment: Alignment.topRight,
                 height: 230,
                 width: 170,
                 decoration: BoxDecoration(
+                  boxShadow: [
+                    BoxShadow(
+                      color: Colors.grey,
+                      blurRadius: 0.1,
+                    )
+                  ],
                   color:Colors.brown,
-
                   border: Border.symmetric(
                     vertical: BorderSide(
                       color: Colors.white,
@@ -47,13 +53,22 @@ class MyApp extends StatelessWidget {
                       // strokeAlign: 0.1
                     ),
                     horizontal: BorderSide(
-                      color: Colors.blue,
+                      color: Color(0xFF87665B),
                       width: 30,
 
                     )
                   )
                 ),
 
+                child: Container(
+
+                  child: Text(
+                    '🔥',style: TextStyle(
+                    height: -2.2,
+                    fontSize: 55,
+                  ),
+                  ),
+                ),
               ),
             )
         ),
