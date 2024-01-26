@@ -1,6 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 
 void main() {
+  SystemChrome.setSystemUIOverlayStyle(const SystemUiOverlayStyle(
+    statusBarColor: Color(0xFF5B4036),
+  ));
   runApp(const MyApp());
 }
 
@@ -11,7 +15,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      // debugShowCheckedModeBanner: ,
+      debugShowCheckedModeBanner: false,
 
       theme: ThemeData(
 
@@ -19,26 +23,37 @@ class MyApp extends StatelessWidget {
       ),
       home:  SafeArea(
         child: Scaffold(
+          // backgroundColor: Colors.red,
             appBar: AppBar(
-              title: const Text('Flutter App'),
+              backgroundColor: Color(0xFF795548),
+              title: const Text('Mashal',style: TextStyle(
+                color: Colors.white,
+                fontSize: 25,
+              ),
+              ),
+              centerTitle: true,
             ),
             body: Center(
               child: Container(
-                height: 360,
-                  width: 230,
-                  decoration: const BoxDecoration(
-                    color: Colors.green,
-                    border: Border.symmetric(
-                      vertical: BorderSide(
-                        color: Colors.white,
-                        width: 50,
-                      ),
-                      horizontal: BorderSide(
-                        color: Colors.green,
-                        width: 50,
-                      ),
+                height: 230,
+                width: 170,
+                decoration: BoxDecoration(
+                  color:Colors.brown,
+
+                  border: Border.symmetric(
+                    vertical: BorderSide(
+                      color: Colors.white,
+                      width: 50,
+                      // strokeAlign: 0.1
                     ),
-                  ),
+                    horizontal: BorderSide(
+                      color: Colors.blue,
+                      width: 30,
+
+                    )
+                  )
+                ),
+
               ),
             )
         ),
