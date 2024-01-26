@@ -37,7 +37,7 @@ class MyApp extends StatelessWidget {
               child: Stack(
                 children: [
                   Container(
-                    alignment: Alignment.center,
+                    alignment: Alignment.bottomCenter,
                     height: 300,
                     width: 300,
                     decoration: BoxDecoration(
@@ -49,13 +49,42 @@ class MyApp extends StatelessWidget {
                       ),
                     ),
                   ),
+
                   Positioned(
+                    top: 25,
+                    left: 25.5,
+                    bottom: 60,
                     child: Container(
-                      height: 90,
-                      width: 90,
+                      height: 230,
+                      width: 250,
                       decoration: BoxDecoration(
-                          color: Colors.blue, shape: BoxShape.circle),
+                          color: Colors.orange,
+                          shape: BoxShape.circle),
                     ),
+                  ),
+                  Positioned(
+                    top: 85,
+                    right: 65,
+                      child: Container(
+                        height: 70,
+                        width: 70,
+                        decoration: BoxDecoration(
+                          color: Colors.white,
+                          shape: BoxShape.circle,
+                        ),
+                      ),
+                  ),
+                  Positioned(
+                    top: 82,
+                    left: 70,
+                      child: Container(
+                        height: 70,
+                        width: 70,
+                        decoration: BoxDecoration(
+                          shape: BoxShape.circle,
+                          color: Colors.white,
+                        ),
+                      )
                   ),
                 ],
               ),
