@@ -56,7 +56,9 @@ class MyApp extends StatelessWidget {
                         horizontal: BorderSide(
                           color: Color(0xFF87665B),
                           width: 30,
-                        ))),
+                        )
+                    )
+                ),
 
                 child: const Text(
                   '🔥',

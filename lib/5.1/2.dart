@@ -51,7 +51,8 @@ class MyApp extends StatelessWidget {
                         fontSize: 19,
                         fontWeight: FontWeight.bold,
 
-                      )),
+                      )
+                      ),
                       TextSpan(text: '- RNW',style: TextStyle(
                         color: Colors.black,
                         fontSize: 20,
@@ -62,7 +63,8 @@ class MyApp extends StatelessWidget {
                   ),
                 )
               ),
-            )),
+            )
+        ),
       ),
     );
   }
