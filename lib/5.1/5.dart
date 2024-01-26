@@ -39,7 +39,7 @@ class MyApp extends StatelessWidget {
                   alignment: Alignment.center,
                   height: 270,
                   width: 270,
-                  decoration: BoxDecoration(
+                  decoration: const BoxDecoration(
                     color: Color(0xFF4CAF50),
                     border: Border.symmetric(
                       vertical: BorderSide(
