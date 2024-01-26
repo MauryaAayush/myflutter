@@ -22,9 +22,9 @@ class MyApp extends StatelessWidget {
           ),
       home: SafeArea(
         child: Scaffold(
-            backgroundColor: Color(0xFF689237),
+            backgroundColor: const Color(0xFF689237),
             appBar: AppBar(
-              backgroundColor: Color(0xFF8BC34A),
+              backgroundColor: const Color(0xFF8BC34A),
               title: const Text(
                 'My app',
                 style: TextStyle(color: Colors.white),
@@ -36,12 +36,12 @@ class MyApp extends StatelessWidget {
                 alignment: Alignment.center,
                 height: 300,
                 width: 300,
-                decoration: BoxDecoration(color: Color(0xFF4CAF50)),
+                decoration: const BoxDecoration(color: Color(0xFF4CAF50)),
                 child: Container(
                   alignment: Alignment.center,
                   height: 230,
                   width: 230,
-                  decoration: BoxDecoration(
+                  decoration: const BoxDecoration(
                     color: Color(0xFFB2FF59),
                   ),
                   child: Container(
