@@ -41,11 +41,11 @@ class MyApp extends StatelessWidget {
                   color: Colors.black,
                   border: Border.symmetric(
                     vertical: BorderSide(
-                      color: Colors.blue,
-                      width: 50,
+                      color: Color(0xFFEEEEEE),
+                      width: 75,
                     ),
                     horizontal: BorderSide(
-                      color: Colors.red,
+                      color: Colors.black,
                       width: 50,
                     ),
                   ),
