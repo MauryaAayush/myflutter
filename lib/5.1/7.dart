@@ -1,6 +1,12 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 
 void main() {
+  SystemChrome.setSystemUIOverlayStyle(
+    const SystemUiOverlayStyle(
+      statusBarColor: Colors.black,
+    ),
+  );
   runApp(const MyApp());
 }
 
@@ -11,7 +17,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      // debugShowCheckedModeBanner: ,
+      debugShowCheckedModeBanner: false,
 
       theme: ThemeData(
 
@@ -20,7 +26,12 @@ class MyApp extends StatelessWidget {
       home:  SafeArea(
         child: Scaffold(
             appBar: AppBar(
-              title: const Text('Flutter App'),
+              backgroundColor: Colors.black,
+              title: const Text('Opened Door',style: TextStyle(
+                color: Colors.white,
+              ),
+              ),
+              centerTitle: true,
             ),
             body: Center(
               child: Container(
