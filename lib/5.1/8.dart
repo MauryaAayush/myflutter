@@ -1,12 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
 
 void main() {
-  SystemChrome.setSystemUIOverlayStyle(
-    const SystemUiOverlayStyle(
-      statusBarColor: Colors.grey,
-    ),
-  );
   runApp(const MyApp());
 }
 
@@ -50,7 +44,7 @@ class MyApp extends StatelessWidget {
                           child: Container(
                             height: 230,
                             width: 250,
-                            decoration: BoxDecoration(
+                            decoration: const BoxDecoration(
                               color: Colors.orange,
                               shape: BoxShape.circle,
                             ),
@@ -62,7 +56,7 @@ class MyApp extends StatelessWidget {
                           child: Container(
                             height: 70,
                             width: 70,
-                            decoration: BoxDecoration(
+                            decoration: const BoxDecoration(
                               color: Colors.white,
                               shape: BoxShape.circle,
                             ),
