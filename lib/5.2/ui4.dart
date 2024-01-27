@@ -40,8 +40,8 @@ class MyApp extends StatelessWidget {
           body: Center(
             child: Container(
               alignment: Alignment.center,
-              height: 60,
-              width: 230,
+              height: 80,
+              width: 220,
               decoration: BoxDecoration(
                 boxShadow: const [
                   BoxShadow(
@@ -51,22 +51,26 @@ class MyApp extends StatelessWidget {
                   )
                 ],
                 color: Colors.blue,
-                borderRadius: const BorderRadius.all(Radius.circular(15)),
+                borderRadius: const BorderRadius.all(Radius.circular(35)),
                 gradient: LinearGradient(
                   colors: [
-                    Colors.purpleAccent
+                    Color(0xFF942EB4),
+                    Color(0xFF803FBF),
+                    Color(0xFF635ACF),
+                    Color(0xFF3287EA),
                   ]
                 ),
                 border: Border.all(
-                  color: const Color(0xFFC13E3E),
-                  width: 2,
+                  color: Colors.white,
+                  width: 1.2,
                 ),
               ),
               child: const Text(
-                'Tap',
+                'Flutter',
                 style: TextStyle(
                   color: Colors.white,
-                  fontSize: 25,
+                  fontSize: 22,
+                  fontWeight: FontWeight.bold,
                 ),
               ),
             ),
