@@ -7,7 +7,6 @@ void main() {
       statusBarColor: Colors.grey,
     ),
   );
-
   runApp(const MyApp());
 }
 
