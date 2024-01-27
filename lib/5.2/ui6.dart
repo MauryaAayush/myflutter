@@ -54,15 +54,10 @@ class MyApp extends StatelessWidget {
               ),
               child: Container(
                 alignment: Alignment.center,
-                child: Text('Flutter',style: TextStyle(
-                  color: Colors.white,
-                  fontSize: 20,
-                    fontWeight: FontWeight.bold,
-                ),),
                 height: 90,
                 width: 250,
                 decoration: BoxDecoration(
-                  boxShadow: [
+                  boxShadow: const [
                     BoxShadow(
                       color: Colors.black12,
                       spreadRadius: 2,
@@ -70,7 +65,7 @@ class MyApp extends StatelessWidget {
                       offset: Offset(8, 8)
                     )
                   ],
-                  borderRadius: BorderRadius.all(Radius.circular(40)),
+                  borderRadius: const BorderRadius.all(Radius.circular(40)),
                   border: Border.all(color: Colors.grey,width: 0.3),
                   gradient: LinearGradient(
                     colors: [
@@ -79,6 +74,11 @@ class MyApp extends StatelessWidget {
                     ]
                   ),
                 ),
+                child: Text('Flutter',style: TextStyle(
+                  color: Colors.white,
+                  fontSize: 20,
+                    fontWeight: FontWeight.bold,
+                ),),
               )
             ),
           ),
