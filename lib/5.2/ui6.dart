@@ -45,10 +45,10 @@ class MyApp extends StatelessWidget {
                       begin: Alignment.topCenter,
                       end: Alignment.bottomCenter,
                       colors: [
-                        Color(0xFF2294F2),
-                        Color(0xFF2E79D9),
-                        Color(0xFF3764C6),
-                        Color(0xFF3F52B6),
+                        Color(0xFF47426C),
+                        Color(0xFF424F7F),
+                        Color(0xFF3271B8),
+                        Color(0xFF268CE2),
                       ]
                   )
               ),
@@ -56,7 +56,13 @@ class MyApp extends StatelessWidget {
                 height: 100,
                 width: 250,
                 decoration: BoxDecoration(
-                  color: Colors.blue,
+                  border: Border.all(color: Colors.white,width: 0.1),
+                  gradient: LinearGradient(
+                    colors: [
+                      Color(0xFF4F7AAE),
+                      Color(0xFF416DA1),
+                    ]
+                  ),
                 ),
               )
             ),
