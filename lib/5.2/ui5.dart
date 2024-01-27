@@ -40,7 +40,7 @@ class MyApp extends StatelessWidget {
           body: Center(
             child: Container(
               alignment: Alignment.center,
-              decoration: BoxDecoration(
+              decoration: const BoxDecoration(
                 gradient: LinearGradient(
                   begin: Alignment.topCenter,
                   end: Alignment.bottomCenter,
