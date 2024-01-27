@@ -58,7 +58,7 @@ class MyApp extends StatelessWidget {
                 width: 280,
                 decoration: BoxDecoration(
                     border: Border.all(color: Colors.white,width: 1),
-                  gradient: LinearGradient(
+                  gradient: const LinearGradient(
                     begin: Alignment.topCenter,
                     end: Alignment.bottomCenter,
                     colors: [
