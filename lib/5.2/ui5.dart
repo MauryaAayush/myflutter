@@ -1,7 +1,12 @@
-
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 
 void main() {
+  SystemChrome.setSystemUIOverlayStyle(
+    const SystemUiOverlayStyle(
+      statusBarColor: Color(0xFF2B273F),
+    ),
+  );
   runApp(const MyApp());
 }
 
@@ -12,25 +17,66 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      // debugShowCheckedModeBanner: ,
-
+      debugShowCheckedModeBanner: false,
       theme: ThemeData(
 
         // useMaterial3: true,
       ),
-      home:  SafeArea(
+      home: SafeArea(
         child: Scaffold(
+          backgroundColor: const Color(0xFF48416A),
           appBar: AppBar(
-            title: const Text('Flutter App'),
+            backgroundColor: const Color(0xFF48416A),
+            title: const Text(
+              'Dark Shadow Button',
+              style: TextStyle(
+                color: Colors.white,
+              ),
+            ),
+            elevation: 5,
+            shadowColor: Colors.black,
+            centerTitle: true,
           ),
-          body:  Center(
+          body: Center(
             child: Container(
-
+              alignment: Alignment.center,
+              height: 80,
+              width: 220,
+              decoration: BoxDecoration(
+                boxShadow: const [
+                  BoxShadow(
+                    // color: Colors.redAccent,
+                    // blurRadius: 20,
+                    // spreadRadius: 3.5,
+                  )
+                ],
+                color: Colors.blue,
+                borderRadius: const BorderRadius.all(Radius.circular(35)),
+                gradient: const LinearGradient(
+                    colors: [
+                      Color(0xFF942EB4),
+                      Color(0xFF803FBF),
+                      Color(0xFF635ACF),
+                      Color(0xFF3287EA),
+                    ]
+                ),
+                border: Border.all(
+                  color: Colors.white,
+                  width: 1.2,
+                ),
+              ),
+              child: const Text(
+                'Flutter',
+                style: TextStyle(
+                  color: Colors.white,
+                  fontSize: 22,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
             ),
           ),
         ),
       ),
-
     );
   }
 }
