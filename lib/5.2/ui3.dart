@@ -26,7 +26,7 @@ class MyApp extends StatelessWidget {
         child: Scaffold(
           backgroundColor: Colors.white,
           appBar: AppBar(
-            backgroundColor: Color(0xFF009688),
+            backgroundColor: const Color(0xFF009688),
             title: const Text(
               'A Shadow Button',
               style: TextStyle(
