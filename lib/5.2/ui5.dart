@@ -74,7 +74,8 @@ class MyApp extends StatelessWidget {
                 style: TextStyle(
                   color: Colors.deepPurple,
                   fontSize: 50,
-                ))
+                )
+                )
               ),
           ),
         ),
