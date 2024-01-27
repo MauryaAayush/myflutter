@@ -40,42 +40,45 @@ class MyApp extends StatelessWidget {
           body: Center(
             child: Container(
               alignment: Alignment.center,
-              height: 80,
-              width: 220,
               decoration: BoxDecoration(
-                boxShadow: const [
-                  BoxShadow(
-                    // color: Colors.redAccent,
-                    // blurRadius: 20,
-                    // spreadRadius: 3.5,
-                  )
-                ],
-                color: Colors.blue,
-                borderRadius: const BorderRadius.all(Radius.circular(35)),
-                gradient: const LinearGradient(
-                    colors: [
-                      Color(0xFF942EB4),
-                      Color(0xFF803FBF),
-                      Color(0xFF635ACF),
-                      Color(0xFF3287EA),
-                    ]
-                ),
-                border: Border.all(
-                  color: Colors.white,
-                  width: 1.2,
-                ),
-              ),
-              child: const Text(
-                'Flutter',
-                style: TextStyle(
-                  color: Colors.white,
-                  fontSize: 22,
-                  fontWeight: FontWeight.bold,
-                ),
-              ),
+                gradient: LinearGradient(
+                  begin: Alignment.topCenter,
+                  end: Alignment.bottomCenter,
+                  colors: [
+                    Color(0xFF2294F2),
+                    Color(0xFF2E79D9),
+                    Color(0xFF3764C6),
+                  Color(0xFF3F52B6),
+                  ]
+                )
             ),
+              child: Container(
+                alignment: Alignment.center,
+                height: 170,
+                width: 280,
+                decoration: BoxDecoration(
+                    border: Border.all(color: Colors.white,width: 1),
+                  gradient: LinearGradient(
+                    begin: Alignment.topCenter,
+                    end: Alignment.bottomCenter,
+                    colors: [
+                      Colors.deepOrange,
+                      Colors.deepOrange,
+                      Colors.white,
+                      Colors.green,
+                      Colors.green,
+                    ]
+                  )
+                ),
+                child: Text('🛞',
+                style: TextStyle(
+                  color: Colors.deepPurple,
+                  fontSize: 50,
+                ))
+              ),
           ),
         ),
+      ),
       ),
     );
   }
