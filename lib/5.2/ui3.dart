@@ -31,7 +31,7 @@ class MyApp extends StatelessWidget {
               'A Shadow Button',
               style: TextStyle(
                 color: Colors.white,
-                fontWeight: FontWeight.w400
+                fontWeight: FontWeight.bold,
               ),
             ),
             centerTitle: true,
