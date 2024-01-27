@@ -51,7 +51,7 @@ class MyApp extends StatelessWidget {
                 color: Colors.black,
                 borderRadius: const BorderRadius.all(Radius.circular(15)),
                 border: Border.all(
-                  color: Color(0xFFC13E3E),
+                  color: const Color(0xFFC13E3E),
                   width: 2,
                 ),
               ),
