@@ -40,7 +40,7 @@ class MyApp extends StatelessWidget {
               height: 180,
               width: 180,
               decoration: BoxDecoration(
-                boxShadow: [
+                boxShadow: const [
                   BoxShadow(
                     color: Colors.green,
                     blurRadius: 14,
