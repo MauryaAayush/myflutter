@@ -52,7 +52,7 @@ class MyApp extends StatelessWidget {
                 ],
                 color: Colors.blue,
                 borderRadius: const BorderRadius.all(Radius.circular(35)),
-                gradient: LinearGradient(
+                gradient: const LinearGradient(
                   colors: [
                     Color(0xFF942EB4),
                     Color(0xFF803FBF),
