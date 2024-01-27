@@ -47,7 +47,6 @@ class MyApp extends StatelessWidget {
                     spreadRadius: 10,
                   )
                 ],
-
                 color: Colors.black,
                 shape: BoxShape.circle,
                 border: Border.all(color: Colors.white,width: 1.5),
