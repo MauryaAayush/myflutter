@@ -20,11 +20,10 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
 
-        // useMaterial3: true,
-      ),
+          // useMaterial3: true,
+          ),
       home: SafeArea(
         child: Scaffold(
-
           appBar: AppBar(
             backgroundColor: const Color(0xFF48416A),
             title: const Text(
@@ -39,48 +38,45 @@ class MyApp extends StatelessWidget {
           ),
           body: Center(
             child: Container(
-              alignment: Alignment.center,
-              decoration: const BoxDecoration(
-                  gradient: LinearGradient(
-                      begin: Alignment.topCenter,
-                      end: Alignment.bottomCenter,
-                      colors: [
-                        Color(0xFF47426C),
-                        Color(0xFF424F7F),
-                        Color(0xFF3271B8),
-                        Color(0xFF268CE2),
-                      ]
-                  )
-              ),
-              child: Container(
                 alignment: Alignment.center,
-                height: 90,
-                width: 250,
-                decoration: BoxDecoration(
-                  boxShadow: const [
-                    BoxShadow(
-                      color: Colors.black12,
-                      spreadRadius: 2,
-                      blurRadius: 10.5,
-                      offset: Offset(8, 8)
-                    )
-                  ],
-                  borderRadius: const BorderRadius.all(Radius.circular(40)),
-                  border: Border.all(color: Colors.grey,width: 0.3),
-                  gradient: const LinearGradient(
-                    colors: [
+                decoration: const BoxDecoration(
+                    gradient: LinearGradient(
+                        begin: Alignment.topCenter,
+                        end: Alignment.bottomCenter,
+                        colors: [
+                      Color(0xFF47426C),
+                      Color(0xFF424F7F),
+                      Color(0xFF3271B8),
+                      Color(0xFF268CE2),
+                    ])),
+                child: Container(
+                  alignment: Alignment.center,
+                  height: 90,
+                  width: 250,
+                  decoration: BoxDecoration(
+                    boxShadow: const [
+                      BoxShadow(
+                          color: Colors.black12,
+                          spreadRadius: 2,
+                          blurRadius: 10.5,
+                          offset: Offset(8, 8))
+                    ],
+                    borderRadius: const BorderRadius.all(Radius.circular(40)),
+                    border: Border.all(color: Colors.grey, width: 0.3),
+                    gradient: const LinearGradient(colors: [
                       Color(0xFF4F7AAE),
                       Color(0xFF416DA1),
-                    ]
+                    ]),
                   ),
-                ),
-                child: const Text('Flutter',style: TextStyle(
-                  color: Colors.white,
-                  fontSize: 20,
-                    fontWeight: FontWeight.bold,
-                ),),
-              )
-            ),
+                  child: const Text(
+                    'Flutter',
+                    style: TextStyle(
+                      color: Colors.white,
+                      fontSize: 20,
+                      fontWeight: FontWeight.bold,
+                    ),
+                  ),
+                )),
           ),
         ),
       ),
