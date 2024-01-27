@@ -4,7 +4,7 @@ import 'package:flutter/services.dart';
 void main() {
   SystemChrome.setSystemUIOverlayStyle(
     const SystemUiOverlayStyle(
-      statusBarColor: Color(0xFF28243A),
+      statusBarColor: Color(0xFF2F2B45),
     ),
   );
   runApp(const MyApp());
@@ -26,16 +26,16 @@ class MyApp extends StatelessWidget {
         child: Scaffold(
 
           appBar: AppBar(
-            backgroundColor: const Color(0xFF2196F3),
+            backgroundColor: const Color(0xFF48416A),
             title: const Text(
-              'Dark Shadow Button',
+              'Watch',
               style: TextStyle(
                 color: Colors.white,
               ),
             ),
             elevation: 5,
             shadowColor: Colors.black,
-            centerTitle: true,
+            centerTitle: false,
           ),
           body: Center(
             child: Container(
