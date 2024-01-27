@@ -67,7 +67,7 @@ class MyApp extends StatelessWidget {
                   ],
                   borderRadius: const BorderRadius.all(Radius.circular(40)),
                   border: Border.all(color: Colors.grey,width: 0.3),
-                  gradient: LinearGradient(
+                  gradient: const LinearGradient(
                     colors: [
                       Color(0xFF4F7AAE),
                       Color(0xFF416DA1),
