@@ -24,15 +24,17 @@ class MyApp extends StatelessWidget {
       ),
       home: SafeArea(
         child: Scaffold(
-          backgroundColor: Colors.black,
+          backgroundColor: Color(0xFF48416A),
           appBar: AppBar(
-            backgroundColor: Colors.redAccent,
+            backgroundColor: Color(0xFF48416A),
             title: const Text(
               'Dark Shadow Button',
               style: TextStyle(
                 color: Colors.white,
               ),
             ),
+            elevation: 5,
+            shadowColor: Colors.black,
             centerTitle: true,
           ),
           body: Center(
@@ -43,13 +45,18 @@ class MyApp extends StatelessWidget {
               decoration: BoxDecoration(
                 boxShadow: const [
                   BoxShadow(
-                    color: Colors.redAccent,
-                    blurRadius: 20,
-                    spreadRadius: 3.5,
+                    // color: Colors.redAccent,
+                    // blurRadius: 20,
+                    // spreadRadius: 3.5,
                   )
                 ],
-                color: Colors.black,
+                color: Colors.blue,
                 borderRadius: const BorderRadius.all(Radius.circular(15)),
+                gradient: LinearGradient(
+                  colors: [
+                    Colors.purpleAccent
+                  ]
+                ),
                 border: Border.all(
                   color: const Color(0xFFC13E3E),
                   width: 2,
