@@ -70,7 +70,7 @@ class MyApp extends StatelessWidget {
                     ]
                   )
                 ),
-                child: Text('🛞',
+                child: const Text('🛞',
                 style: TextStyle(
                   color: Colors.deepPurple,
                   fontSize: 50,
