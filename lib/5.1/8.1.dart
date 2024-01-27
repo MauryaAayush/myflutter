@@ -1,6 +1,13 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 
 void main() {
+  SystemChrome.setSystemUIOverlayStyle(
+    const SystemUiOverlayStyle(
+      statusBarColor: Colors.grey,
+    ),
+    // Size.fromHeight(10),
+  );
   runApp(const MyApp());
 }
 
@@ -15,7 +22,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       home: SafeArea(
         child: Scaffold(
-          backgroundColor: Colors.black,
+          backgroundColor: Colors.white,
           bottomNavigationBar: const BottomAppBar(
               color: Color(0xffFF9800),
               child:Center(
