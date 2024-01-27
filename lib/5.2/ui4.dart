@@ -28,7 +28,7 @@ class MyApp extends StatelessWidget {
           appBar: AppBar(
             backgroundColor: const Color(0xFF48416A),
             title: const Text(
-              'Dark Shadow Button',
+              'Gredient Button',
               style: TextStyle(
                 color: Colors.white,
               ),
