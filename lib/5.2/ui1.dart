@@ -36,12 +36,25 @@ class MyApp extends StatelessWidget {
           ),
           body:  Center(
             child: Container(
+              alignment: Alignment.center,
               height: 180,
               width: 180,
               decoration: BoxDecoration(
+                boxShadow: [
+                  BoxShadow(
+                    color: Colors.green,
+                    blurRadius: 14,
+                    spreadRadius: 10,
+                  )
+                ],
                 color: Colors.black,
                 shape: BoxShape.circle,
-                border: Border.all(color: Colors.white,width: 2),
+                border: Border.all(color: Colors.white,width: 1.5),
+              ),
+              child: Text('GO',style: TextStyle(
+                color: Colors.white,
+                fontSize: 25,
+              ),
               ),
             ),
           ),
