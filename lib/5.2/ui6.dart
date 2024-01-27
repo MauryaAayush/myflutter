@@ -53,10 +53,25 @@ class MyApp extends StatelessWidget {
                   )
               ),
               child: Container(
-                height: 100,
+                alignment: Alignment.center,
+                child: Text('Flutter',style: TextStyle(
+                  color: Colors.white,
+                  fontSize: 20,
+                    fontWeight: FontWeight.bold,
+                ),),
+                height: 90,
                 width: 250,
                 decoration: BoxDecoration(
-                  border: Border.all(color: Colors.white,width: 0.1),
+                  boxShadow: [
+                    BoxShadow(
+                      color: Colors.black12,
+                      spreadRadius: 2,
+                      blurRadius: 10.5,
+                      offset: Offset(8, 8)
+                    )
+                  ],
+                  borderRadius: BorderRadius.all(Radius.circular(40)),
+                  border: Border.all(color: Colors.grey,width: 0.3),
                   gradient: LinearGradient(
                     colors: [
                       Color(0xFF4F7AAE),
