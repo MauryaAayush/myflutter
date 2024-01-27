@@ -53,29 +53,12 @@ class MyApp extends StatelessWidget {
                   )
               ),
               child: Container(
-                  alignment: Alignment.center,
-                  height: 170,
-                  width: 280,
-                  decoration: BoxDecoration(
-                      border: Border.all(color: Colors.white,width: 1),
-                      gradient: LinearGradient(
-                          begin: Alignment.topCenter,
-                          end: Alignment.bottomCenter,
-                          colors: [
-                            Colors.deepOrange,
-                            Colors.deepOrange,
-                            Colors.white,
-                            Colors.green,
-                            Colors.green,
-                          ]
-                      )
-                  ),
-                  child: Text('🛞',
-                      style: TextStyle(
-                        color: Colors.deepPurple,
-                        fontSize: 50,
-                      ))
-              ),
+                height: 100,
+                width: 250,
+                decoration: BoxDecoration(
+                  color: Colors.blue,
+                ),
+              )
             ),
           ),
         ),
