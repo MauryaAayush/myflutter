@@ -24,7 +24,7 @@ class MyApp extends StatelessWidget {
       ),
       home: SafeArea(
         child: Scaffold(
-          backgroundColor: const Color(0xFF48416A),
+
           appBar: AppBar(
             backgroundColor: const Color(0xFF2196F3),
             title: const Text(
