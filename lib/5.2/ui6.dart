@@ -74,7 +74,7 @@ class MyApp extends StatelessWidget {
                     ]
                   ),
                 ),
-                child: Text('Flutter',style: TextStyle(
+                child: const Text('Flutter',style: TextStyle(
                   color: Colors.white,
                   fontSize: 20,
                     fontWeight: FontWeight.bold,
