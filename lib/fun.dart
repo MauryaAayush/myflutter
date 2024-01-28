@@ -36,98 +36,175 @@ class MyApp extends StatelessWidget {
           ),
           body:  Center(
             child: Container(
-              alignment: Alignment.center,
-              height: 400,
+              alignment: Alignment(0,11.5),
+              height: 180,
               width: 400,
-              decoration: BoxDecoration(
-                color: Colors.white,
-                shape: BoxShape.circle,
-                border: Border.all(color: Colors.black,width: 1),
+              decoration:  BoxDecoration(
+                  color: Colors.blue,
+                  border:Border(bottom: BorderSide(color: Colors.black,width: 2))
               ),
               child: Container(
-                alignment: Alignment.center,
-                height: 360,
-                width: 360,
+                alignment: Alignment(-33.05,-1.5),
+                height: 150,
+                width: 400,
                 decoration: BoxDecoration(
-                  color: Colors.white,
-                  shape: BoxShape.circle,
-                  border: Border.all(color: Colors.black,width: 1),
+                  color: Colors.red,
                 ),
                 child: Container(
-                  alignment: Alignment.center,
-                  height: 320,
-                  width: 320,
+                  alignment: Alignment(2.9,-1.5),
+                  height: 50,
+                  width: 350,
                   decoration: BoxDecoration(
-                    color: Colors.black,
+                    color: Colors.white,
                     shape: BoxShape.circle,
-                    border: Border.all(color: Colors.black, width: 1)
                   ),
                   child: Container(
-                    alignment: Alignment.center,
-                    height: 280,
-                    width: 280,
+                    alignment: Alignment(1.8,-1.5),
+                    height: 50,
+                    width: 320,
                     decoration: BoxDecoration(
-                      color: Colors.black,
+                      color: Colors.white,
                       shape: BoxShape.circle,
-                      border: Border.all(color: Colors.white,width: 1.5)
                     ),
                     child: Container(
-                      alignment: Alignment.center,
-                      height: 240,
-                      width: 240,
+                      alignment: Alignment(10.1,-1.5),
+                      height: 50,
+                      width: 269,
                       decoration: BoxDecoration(
-                        color: Colors.lightBlue,
+                        color: Colors.white,
                         shape: BoxShape.circle,
-                        border: Border.all(color: Colors.black,width: 1)
                       ),
                       child: Container(
-                        alignment: Alignment.center,
-                        height: 200,
-                        width: 200,
+                        alignment: Alignment(17.89,-1.5),
+                        height: 50,
+                        width: 260,
                         decoration: BoxDecoration(
-                          color: Colors.lightBlue,
+                          color: Colors.white,
                           shape: BoxShape.circle,
-                          border: Border.all(color: Colors.black,width: 1)
                         ),
                         child: Container(
-                          alignment: Alignment.center,
-                          height: 160,
-                          width: 160,
+                          alignment: Alignment(17.5,-1.5),
+                          height: 50,
+                          width: 255,
                           decoration: BoxDecoration(
-                            color: Colors.redAccent,
+                            color: Colors.white,
                             shape: BoxShape.circle,
-                            border: Border.all(color: Colors.black,width: 2)
                           ),
                           child: Container(
-                            alignment: Alignment.center,
-                            height: 120,
-                            width: 120,
+                            alignment: Alignment(17,-1.5),
+                            height: 50,
+                            width: 250,
                             decoration: BoxDecoration(
-                              color: Colors.redAccent,
+                              color: Colors.white,
                               shape: BoxShape.circle,
-                              border: Border.all(color: Colors.black,width: 2)
                             ),
                             child: Container(
-                              alignment:Alignment.center,
-                              height: 80,
-                              width: 80,
+                              alignment: Alignment(17.15,-1.5),
+                              height: 50,
+                              width: 245,
                               decoration: BoxDecoration(
-                                color: Colors.yellowAccent,
+                                color: Colors.white,
                                 shape: BoxShape.circle,
-                                border: Border.all(color: Colors.black,width: 2)
                               ),
                               child: Container(
-                                alignment: Alignment.center,
-                                height: 40,
-                                width: 40,
+                                alignment: Alignment(17.15,-1.5),
+                                height: 50,
+                                width: 240,
                                 decoration: BoxDecoration(
-                                  color: Colors.yellowAccent,
+                                  color: Colors.white,
                                   shape: BoxShape.circle,
-                                  border: Border.all(color: Colors.black,width: 2)
                                 ),
-                                child: const Text('+',style: TextStyle(
-                                  fontSize: 26,
-                                )),
+                                child: Container(
+                                  alignment: Alignment(-700,-350.5),
+                                  height: 50,
+                                  width: 235,
+                                  decoration: BoxDecoration(
+                                    color: Colors.white,
+                                    shape: BoxShape.circle,
+                                  ),
+                                  child: Container(
+                                    alignment: Alignment(87.15,-350.5),
+                                    height: 49,
+                                    width: 234,
+                                    decoration: BoxDecoration(
+                                      color: Colors.white,
+                                      shape: BoxShape.circle,
+                                    ),
+                                    child: Container(
+                                      alignment: Alignment(87.15,9.5),
+                                      height: 49,
+                                      width: 233,
+                                      decoration: BoxDecoration(
+                                        color: Colors.white,
+                                        shape: BoxShape.circle,
+                                      ),
+                                      child: Container(
+                                        alignment: Alignment(44.15,1.5),
+                                        height: 49,
+                                        width: 232,
+                                        decoration: BoxDecoration(
+                                          color: Colors.white,
+                                          shape: BoxShape.circle,
+                                        ),
+                                        child: Container(
+                                          alignment: Alignment(44.15,1.5),
+                                          height: 49,
+                                          width: 230,
+                                          decoration: BoxDecoration(
+                                            color: Colors.white,
+                                            shape: BoxShape.circle,
+                                          ),
+                                          child: Container(
+                                            alignment: Alignment(44.15,1.5),
+                                            height: 49,
+                                            width: 228,
+                                            decoration: BoxDecoration(
+                                              color: Colors.white,
+                                              shape: BoxShape.circle,
+                                            ),
+                                            child: Container(
+                                              alignment: Alignment(44.15,1.5),
+                                              height: 49,
+                                              width: 226,
+                                              decoration: BoxDecoration(
+                                                color: Colors.white,
+                                                shape: BoxShape.circle,
+                                              ),
+                                              child: Container(
+                                                alignment: Alignment(44.15,1.5),
+                                                height: 49,
+                                                width: 224,
+                                                decoration: BoxDecoration(
+                                                  color: Colors.white,
+                                                  shape: BoxShape.circle,
+                                                ),
+                                                child: Container(
+                                                  alignment: Alignment(44.15,-1.5),
+                                                  height: 49,
+                                                  width: 222,
+                                                  decoration: BoxDecoration(
+                                                    color: Colors.white,
+                                                    shape: BoxShape.circle,
+                                                  ),
+                                                  child: Container(
+                                                    alignment: Alignment(-5.15,-1.5),
+                                                    height: 49,
+                                                    width: 220,
+                                                    decoration: BoxDecoration(
+                                                      color: Colors.white,
+                                                      shape: BoxShape.circle,
+                                                    ),
+                                                  ),
+                                                ),
+                                              ),
+
+                                            ),
+                                          ),
+                                        ),
+                                      ),
+                                    ),
+                                  ),
+                                ),
                               ),
                             ),
                           ),
