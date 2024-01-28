@@ -41,7 +41,7 @@ class MyApp extends StatelessWidget {
               height: 180,
               width: 400,
               decoration: BoxDecoration(
-                  color: Colors.blue,
+                  color: Colors.deepOrange,
                   border: Border(
                       bottom: BorderSide(color: Colors.black, width: 2))),
               child: Container(
@@ -49,7 +49,7 @@ class MyApp extends StatelessWidget {
                 height: 150,
                 width: 400,
                 decoration: BoxDecoration(
-                  color: Colors.red,
+                  color: Colors.green,
                 ),
                 child: Container(
                   alignment: Alignment(2.9, -1.5),
@@ -204,12 +204,12 @@ class MyApp extends StatelessWidget {
                                                       height: 48,
                                                       width: 219,
                                                       decoration: BoxDecoration(
-                                                        color: Colors.white,
+                                                        color: Colors.green,
                                                         shape: BoxShape.circle,
                                                       ),
                                                       child: Container(
                                                         alignment:
-                                                          Alignment(86.15, 0),
+                                                            Alignment(86.15, 0),
                                                         height: 48,
                                                         width: 218,
                                                         decoration:
@@ -219,8 +219,8 @@ class MyApp extends StatelessWidget {
                                                               BoxShape.circle,
                                                         ),
                                                         child: Container(
-                                                          alignment:
-                                                            Alignment(86.15, 0),
+                                                          alignment: Alignment(
+                                                              86.15, 0),
                                                           height: 48,
                                                           width: 217,
                                                           decoration:
@@ -231,64 +231,90 @@ class MyApp extends StatelessWidget {
                                                           ),
                                                           child: Container(
                                                             alignment:
-                                                              Alignment(86.15, 0),
+                                                                Alignment(
+                                                                    90.15, 0),
                                                             height: 48,
                                                             width: 216,
                                                             decoration:
-                                                            BoxDecoration(
-                                                              color: Colors.white,
-                                                              shape:
-                                                              BoxShape.circle,
+                                                                BoxDecoration(
+                                                              color:
+                                                                  Colors.white,
+                                                              shape: BoxShape
+                                                                  .circle,
                                                             ),
                                                             child: Container(
-                                                              alignment: Alignment(86.15, 0),
+                                                              alignment:
+                                                                  Alignment(
+                                                                      90.15, 0),
                                                               height: 48,
                                                               width: 215,
                                                               decoration:
-                                                              BoxDecoration(
-                                                                color: Colors.white,
-                                                                shape:
-                                                                BoxShape.circle,
+                                                                  BoxDecoration(
+                                                                color: Colors
+                                                                    .white,
+                                                                shape: BoxShape
+                                                                    .circle,
                                                               ),
                                                               child: Container(
-                                                                alignment: Alignment(86.15, 0),
+                                                                alignment:
+                                                                    Alignment(
+                                                                        90.15,
+                                                                        0),
                                                                 height: 48,
                                                                 width: 214,
                                                                 decoration:
-                                                                BoxDecoration(
-                                                                  color: Colors.white,
-                                                                  shape:
-                                                                  BoxShape.circle,
+                                                                    BoxDecoration(
+                                                                  color: Colors
+                                                                      .white,
+                                                                  shape: BoxShape
+                                                                      .circle,
                                                                 ),
-                                                                child: Container(
-                                                                  alignment: Alignment(86.15, 0),
+                                                                child:
+                                                                    Container(
+                                                                  alignment:
+                                                                      Alignment(
+                                                                          90.15,
+                                                                          0),
                                                                   height: 48,
                                                                   width: 213,
                                                                   decoration:
-                                                                  BoxDecoration(
-                                                                    color: Colors.white,
-                                                                    shape:
-                                                                    BoxShape.circle,
+                                                                      BoxDecoration(
+                                                                    color: Colors
+                                                                        .white,
+                                                                    shape: BoxShape
+                                                                        .circle,
                                                                   ),
-                                                                  child: Container(
-                                                                    alignment: Alignment(86.15, 0),
+                                                                  child:
+                                                                      Container(
+                                                                    alignment:
+                                                                        Alignment(
+                                                                            86.15,
+                                                                            0),
                                                                     height: 48,
                                                                     width: 212,
                                                                     decoration:
-                                                                    BoxDecoration(
-                                                                      color: Colors.white,
-                                                                      shape:
-                                                                      BoxShape.circle,
+                                                                        BoxDecoration(
+                                                                      color: Colors
+                                                                          .white,
+                                                                      shape: BoxShape
+                                                                          .circle,
                                                                     ),
-                                                                    child: Container(
-                                                                      alignment: Alignment(95.15, 0),
-                                                                      height: 48,
-                                                                      width: 211,
+                                                                    child:
+                                                                        Container(
+                                                                      alignment:
+                                                                          Alignment(
+                                                                              86.15,
+                                                                              0),
+                                                                      height:
+                                                                          48,
+                                                                      width:
+                                                                          211,
                                                                       decoration:
-                                                                      BoxDecoration(
-                                                                        color: Colors.white,
-                                                                        shape:
-                                                                        BoxShape.circle,
+                                                                          BoxDecoration(
+                                                                        color: Colors
+                                                                            .white,
+                                                                        shape: BoxShape
+                                                                            .circle,
                                                                       ),
                                                                     ),
                                                                   ),
