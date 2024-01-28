@@ -191,21 +191,29 @@ class MyApp extends StatelessWidget {
                                                   ),
                                                   child: Container(
                                                     alignment:
-                                                        Alignment(-5.15, -1.5),
-                                                    height: 49,
+                                                        Alignment(-706.15, 650),
+                                                    height: 50,
                                                     width: 220,
                                                     decoration: BoxDecoration(
                                                       color: Colors.white,
                                                       shape: BoxShape.circle,
                                                     ),
                                                     child: Container(
-                                                      alignment: Alignment(
-                                                          -5.15, -1.5),
-                                                      height: 49,
-                                                      width: 220,
+                                                      alignment: Alignment(85.15,0),
+                                                      height: 48,
+                                                      width: 219,
                                                       decoration: BoxDecoration(
                                                         color: Colors.white,
                                                         shape: BoxShape.circle,
+                                                      ),
+                                                      child: Container(
+                                                        alignment: Alignment(-5.15,-1.5),
+                                                        height: 48,
+                                                        width: 218,
+                                                        decoration: BoxDecoration(
+                                                          color: Colors.white,
+                                                          shape: BoxShape.circle,
+                                                        ),
                                                       ),
                                                     ),
                                                   ),
