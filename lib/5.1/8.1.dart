@@ -53,7 +53,7 @@ class MyApp extends StatelessWidget {
                 child: Container(
                   width: 78,
                   height: 78,
-                  alignment: Alignment(75, 0),
+                  alignment: const Alignment(75, 0),
                   decoration: BoxDecoration(
                     color: Colors.white,
                     shape: BoxShape.circle,
