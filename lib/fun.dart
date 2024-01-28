@@ -192,7 +192,7 @@ class MyApp extends StatelessWidget {
                                                   child: Container(
                                                     alignment:
                                                         Alignment(-706.15, 650),
-                                                    height: 50,
+                                                    height: 49,
                                                     width: 220,
                                                     decoration: BoxDecoration(
                                                       color: Colors.white,
@@ -210,8 +210,7 @@ class MyApp extends StatelessWidget {
                                                       child: Container(
                                                         alignment:
                                                           Alignment(86.15, 0),
-                                                        height: 49
-                                                        ,
+                                                        height: 48,
                                                         width: 218,
                                                         decoration:
                                                             BoxDecoration(
@@ -222,7 +221,7 @@ class MyApp extends StatelessWidget {
                                                         child: Container(
                                                           alignment:
                                                             Alignment(86.15, 0),
-                                                          height: 49,
+                                                          height: 48,
                                                           width: 217,
                                                           decoration:
                                                               BoxDecoration(
@@ -233,7 +232,7 @@ class MyApp extends StatelessWidget {
                                                           child: Container(
                                                             alignment:
                                                               Alignment(86.15, 0),
-                                                            height: 49,
+                                                            height: 48,
                                                             width: 216,
                                                             decoration:
                                                             BoxDecoration(
@@ -274,7 +273,7 @@ class MyApp extends StatelessWidget {
                                                                   child: Container(
                                                                     alignment: Alignment(86.15, 0),
                                                                     height: 48,
-                                                                    width: 219,
+                                                                    width: 212,
                                                                     decoration:
                                                                     BoxDecoration(
                                                                       color: Colors.white,
@@ -282,9 +281,9 @@ class MyApp extends StatelessWidget {
                                                                       BoxShape.circle,
                                                                     ),
                                                                     child: Container(
-                                                                      alignment: Alignment(85.15, 0),
+                                                                      alignment: Alignment(95.15, 0),
                                                                       height: 48,
-                                                                      width: 219,
+                                                                      width: 211,
                                                                       decoration:
                                                                       BoxDecoration(
                                                                         color: Colors.white,
