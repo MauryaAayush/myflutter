@@ -18,41 +18,40 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
+
       theme: ThemeData(
 
-          // useMaterial3: true,
-          ),
-      home: SafeArea(
+        // useMaterial3: true,
+      ),
+      home:  SafeArea(
         child: Scaffold(
           appBar: AppBar(
             backgroundColor: const Color(0xFF2196F3),
-            title: const Text(
-              ' Archery Board',
-              style: TextStyle(
-                color: Colors.white,
-                fontWeight: FontWeight.bold,
-              ),
+            title: const Text(' Archery Board',style: TextStyle(
+              color: Colors.white,
+              fontWeight: FontWeight.bold,
+            ),
             ),
             centerTitle: true,
           ),
-          body: Center(
+          body:  Center(
             child: Container(
-              alignment: Alignment(0, 11.5),
+              alignment: Alignment(0,11.5),
               height: 180,
               width: 400,
-              decoration: BoxDecoration(
+              decoration:  BoxDecoration(
                   color: Colors.blue,
-                  border: Border(
-                      bottom: BorderSide(color: Colors.black, width: 2))),
+                  border:Border(bottom: BorderSide(color: Colors.black,width: 2))
+              ),
               child: Container(
-                alignment: Alignment(-33.05, -1.5),
+                alignment: Alignment(-33.05,-1.5),
                 height: 150,
                 width: 400,
                 decoration: BoxDecoration(
                   color: Colors.red,
                 ),
                 child: Container(
-                  alignment: Alignment(2.9, -1.5),
+                  alignment: Alignment(2.9,-1.5),
                   height: 50,
                   width: 350,
                   decoration: BoxDecoration(
@@ -60,7 +59,7 @@ class MyApp extends StatelessWidget {
                     shape: BoxShape.circle,
                   ),
                   child: Container(
-                    alignment: Alignment(1.8, -1.5),
+                    alignment: Alignment(1.8,-1.5),
                     height: 50,
                     width: 320,
                     decoration: BoxDecoration(
@@ -68,7 +67,7 @@ class MyApp extends StatelessWidget {
                       shape: BoxShape.circle,
                     ),
                     child: Container(
-                      alignment: Alignment(10.1, -1.5),
+                      alignment: Alignment(10.1,-1.5),
                       height: 50,
                       width: 269,
                       decoration: BoxDecoration(
@@ -76,7 +75,7 @@ class MyApp extends StatelessWidget {
                         shape: BoxShape.circle,
                       ),
                       child: Container(
-                        alignment: Alignment(17.89, -1.5),
+                        alignment: Alignment(17.89,-1.5),
                         height: 50,
                         width: 260,
                         decoration: BoxDecoration(
@@ -84,7 +83,7 @@ class MyApp extends StatelessWidget {
                           shape: BoxShape.circle,
                         ),
                         child: Container(
-                          alignment: Alignment(17.5, -1.5),
+                          alignment: Alignment(17.5,-1.5),
                           height: 50,
                           width: 255,
                           decoration: BoxDecoration(
@@ -92,7 +91,7 @@ class MyApp extends StatelessWidget {
                             shape: BoxShape.circle,
                           ),
                           child: Container(
-                            alignment: Alignment(17, -1.5),
+                            alignment: Alignment(17,-1.5),
                             height: 50,
                             width: 250,
                             decoration: BoxDecoration(
@@ -100,7 +99,7 @@ class MyApp extends StatelessWidget {
                               shape: BoxShape.circle,
                             ),
                             child: Container(
-                              alignment: Alignment(17.15, -1.5),
+                              alignment: Alignment(17.15,-1.5),
                               height: 50,
                               width: 245,
                               decoration: BoxDecoration(
@@ -108,7 +107,7 @@ class MyApp extends StatelessWidget {
                                 shape: BoxShape.circle,
                               ),
                               child: Container(
-                                alignment: Alignment(17.15, -1.5),
+                                alignment: Alignment(17.15,-1.5),
                                 height: 50,
                                 width: 240,
                                 decoration: BoxDecoration(
@@ -116,7 +115,7 @@ class MyApp extends StatelessWidget {
                                   shape: BoxShape.circle,
                                 ),
                                 child: Container(
-                                  alignment: Alignment(-700, -350.5),
+                                  alignment: Alignment(-700,-350.5),
                                   height: 50,
                                   width: 235,
                                   decoration: BoxDecoration(
@@ -124,7 +123,7 @@ class MyApp extends StatelessWidget {
                                     shape: BoxShape.circle,
                                   ),
                                   child: Container(
-                                    alignment: Alignment(87.15, -350.5),
+                                    alignment: Alignment(87.15,-350.5),
                                     height: 49,
                                     width: 234,
                                     decoration: BoxDecoration(
@@ -132,7 +131,7 @@ class MyApp extends StatelessWidget {
                                       shape: BoxShape.circle,
                                     ),
                                     child: Container(
-                                      alignment: Alignment(87.15, 9.5),
+                                      alignment: Alignment(87.15,9.5),
                                       height: 49,
                                       width: 233,
                                       decoration: BoxDecoration(
@@ -140,7 +139,7 @@ class MyApp extends StatelessWidget {
                                         shape: BoxShape.circle,
                                       ),
                                       child: Container(
-                                        alignment: Alignment(44.15, 1.5),
+                                        alignment: Alignment(44.15,1.5),
                                         height: 49,
                                         width: 232,
                                         decoration: BoxDecoration(
@@ -148,7 +147,7 @@ class MyApp extends StatelessWidget {
                                           shape: BoxShape.circle,
                                         ),
                                         child: Container(
-                                          alignment: Alignment(44.15, 1.5),
+                                          alignment: Alignment(44.15,1.5),
                                           height: 49,
                                           width: 230,
                                           decoration: BoxDecoration(
@@ -156,7 +155,7 @@ class MyApp extends StatelessWidget {
                                             shape: BoxShape.circle,
                                           ),
                                           child: Container(
-                                            alignment: Alignment(44.15, 1.5),
+                                            alignment: Alignment(44.15,1.5),
                                             height: 49,
                                             width: 228,
                                             decoration: BoxDecoration(
@@ -164,7 +163,7 @@ class MyApp extends StatelessWidget {
                                               shape: BoxShape.circle,
                                             ),
                                             child: Container(
-                                              alignment: Alignment(44.15, 1.5),
+                                              alignment: Alignment(44.15,1.5),
                                               height: 49,
                                               width: 226,
                                               decoration: BoxDecoration(
@@ -172,8 +171,7 @@ class MyApp extends StatelessWidget {
                                                 shape: BoxShape.circle,
                                               ),
                                               child: Container(
-                                                alignment:
-                                                    Alignment(44.15, 1.5),
+                                                alignment: Alignment(44.15,1.5),
                                                 height: 49,
                                                 width: 224,
                                                 decoration: BoxDecoration(
@@ -181,8 +179,7 @@ class MyApp extends StatelessWidget {
                                                   shape: BoxShape.circle,
                                                 ),
                                                 child: Container(
-                                                  alignment:
-                                                      Alignment(44.15, -1.5),
+                                                  alignment: Alignment(44.15,-1.5),
                                                   height: 49,
                                                   width: 222,
                                                   decoration: BoxDecoration(
@@ -190,8 +187,7 @@ class MyApp extends StatelessWidget {
                                                     shape: BoxShape.circle,
                                                   ),
                                                   child: Container(
-                                                    alignment:
-                                                        Alignment(-5.15, -1.5),
+                                                    alignment: Alignment(-5.15,-1.5),
                                                     height: 49,
                                                     width: 220,
                                                     decoration: BoxDecoration(
@@ -201,6 +197,7 @@ class MyApp extends StatelessWidget {
                                                   ),
                                                 ),
                                               ),
+
                                             ),
                                           ),
                                         ),
@@ -221,6 +218,7 @@ class MyApp extends StatelessWidget {
           ),
         ),
       ),
+
     );
   }
 }
