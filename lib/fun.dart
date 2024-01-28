@@ -27,7 +27,7 @@ class MyApp extends StatelessWidget {
           appBar: AppBar(
             backgroundColor: const Color(0xFF2196F3),
             title: const Text(
-              ' Archery Board',
+              ' Tiranga',
               style: TextStyle(
                 color: Colors.white,
                 fontWeight: FontWeight.bold,
@@ -204,7 +204,7 @@ class MyApp extends StatelessWidget {
                                                       height: 48,
                                                       width: 219,
                                                       decoration: BoxDecoration(
-                                                        color: Colors.green,
+                                                        color: Colors.white,
                                                         shape: BoxShape.circle,
                                                       ),
                                                       child: Container(
