@@ -210,7 +210,8 @@ class MyApp extends StatelessWidget {
                                                       child: Container(
                                                         alignment:
                                                           Alignment(86.15, 0),
-                                                        height: 48,
+                                                        height: 49
+                                                        ,
                                                         width: 218,
                                                         decoration:
                                                             BoxDecoration(
@@ -221,7 +222,7 @@ class MyApp extends StatelessWidget {
                                                         child: Container(
                                                           alignment:
                                                             Alignment(86.15, 0),
-                                                          height: 48,
+                                                          height: 49,
                                                           width: 217,
                                                           decoration:
                                                               BoxDecoration(
@@ -232,7 +233,7 @@ class MyApp extends StatelessWidget {
                                                           child: Container(
                                                             alignment:
                                                               Alignment(85.15, 0),
-                                                            height: 48,
+                                                            height: 49,
                                                             width: 216,
                                                             decoration:
                                                             BoxDecoration(
