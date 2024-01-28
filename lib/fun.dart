@@ -230,7 +230,8 @@ class MyApp extends StatelessWidget {
                                                                 BoxShape.circle,
                                                           ),
                                                           child: Container(
-                                                            alignment: Alignment(85.15, 0),
+                                                            alignment:
+                                                              Alignment(85.15, 0),
                                                             height: 48,
                                                             width: 216,
                                                             decoration:
