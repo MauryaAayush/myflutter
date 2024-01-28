@@ -125,7 +125,7 @@ class MyApp extends StatelessWidget {
                                   shape: BoxShape.circle,
                                   border: Border.all(color: Colors.black,width: 2)
                                 ),
-                                child: Text('+',style: TextStyle(
+                                child: const Text('+',style: TextStyle(
                                   fontSize: 26,
                                 )),
                               ),
