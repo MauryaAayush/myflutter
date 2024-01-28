@@ -44,8 +44,8 @@ class MyApp extends StatelessWidget {
               child:Container(
                 width: 250,
                 height: 250,
-                alignment: Alignment(-0.65, -0.50),
-                decoration: BoxDecoration(
+                alignment: const Alignment(-0.65, -0.50),
+                decoration: const BoxDecoration(
                     shape: BoxShape.circle,
                     color: Colors.orange,
                     border: Border(bottom: BorderSide(color: Colors.white,width: 20))
