@@ -62,7 +62,7 @@ class MyApp extends StatelessWidget {
                   child: Container(
                     width: 75,
                     height: 74,
-                    decoration: BoxDecoration(
+                    decoration: const BoxDecoration(
                       shape: BoxShape.circle,
                       color: Colors.white,
                     ),
