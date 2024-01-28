@@ -193,7 +193,15 @@ class MyApp extends StatelessWidget {
                                                     decoration: BoxDecoration(
                                                       color: Colors.white,
                                                       shape: BoxShape.circle,
+                                                    ),child: Container(
+                                                    alignment: Alignment(-5.15,-1.5),
+                                                    height: 49,
+                                                    width: 220,
+                                                    decoration: BoxDecoration(
+                                                      color: Colors.white,
+                                                      shape: BoxShape.circle,
                                                     ),
+                                                  ),
                                                   ),
                                                 ),
                                               ),
