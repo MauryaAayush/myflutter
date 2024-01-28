@@ -26,7 +26,7 @@ class MyApp extends StatelessWidget {
       home:  SafeArea(
         child: Scaffold(
           appBar: AppBar(
-            backgroundColor: Color(0xFF2196F3),
+            backgroundColor: const Color(0xFF2196F3),
             title: const Text(' Archery Board',style: TextStyle(
               color: Colors.white,
               fontWeight: FontWeight.bold,
@@ -125,7 +125,7 @@ class MyApp extends StatelessWidget {
                                   shape: BoxShape.circle,
                                   border: Border.all(color: Colors.black,width: 2)
                                 ),
-                                child: const Text('+',style: TextStyle(
+                                child: Text('+',style: TextStyle(
                                   fontSize: 26,
                                 )),
                               ),
