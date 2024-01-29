@@ -38,7 +38,8 @@ class MyApp extends StatelessWidget {
           ),
           body: Center(
             child: Container(
-              alignment: Alignment(0, 11.5),
+              alignment: Alignment(
+                  0, 11.5),
               height: 180,
               width: 400,
               decoration: BoxDecoration(
