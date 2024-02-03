@@ -19,7 +19,7 @@ class _CounterState extends State<Counter> {
       debugShowCheckedModeBanner: false,
       home: Scaffold(
         appBar: AppBar(
-          title: Text('Counting App',
+          title: const Text('Counting App',
           style: TextStyle(
             color: Colors.white
           ),),
