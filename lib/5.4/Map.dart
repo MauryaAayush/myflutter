@@ -39,8 +39,8 @@ class _MapState extends State<Map> {
           child: Column(
             children: List.generate(
               boxes.length,
-                  (index) => containers(boxes[index]['text'],
-                                        boxes[index]['icons']),
+              (index) =>
+                  containers(boxes[index]['text'], boxes[index]['icons']),
             ),
           ),
         ),
@@ -69,9 +69,7 @@ Widget containers(String text, IconData icons) {
         SizedBox.square(
           dimension: 200,
         ),
-        Icon(
-          icons
-        ),
+        Icon(icons),
       ],
     ),
   );
