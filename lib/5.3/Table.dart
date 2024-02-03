@@ -28,7 +28,7 @@ class _CounterState extends State<Counter> {
           centerTitle: true,
         ),
         body: Column(
-          children: List.generate(table.length, (index) => Text('5 x ${table[index]} = ${5*table[index]}',style: TextStyle(
+          children: List.generate(table.length, (index) => Text('5 x ${table[index]} = ${5*table[index]}',style: const TextStyle(
               color: Colors.blue
           ),))
         ),
