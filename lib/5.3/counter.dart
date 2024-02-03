@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 
 void main() {
-  runApp(Counter());
+  runApp(const Counter());
 }
 
 class Counter extends StatefulWidget {
