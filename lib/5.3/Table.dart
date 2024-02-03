@@ -40,7 +40,7 @@ class _CounterState extends State<Counter> {
             }
             );
           },
-          child: Icon(Icons.add),
+          child: const Icon(Icons.add),
         ),
       ),
     );
