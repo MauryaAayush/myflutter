@@ -15,7 +15,7 @@ class _SplitterState extends State<Splitter> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      debugShowCheckedModeBanner: true,
+      debugShowCheckedModeBanner: false,
       home: Scaffold(
         backgroundColor: Color(0xFFFF9800),
         appBar: AppBar(
