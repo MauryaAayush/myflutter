@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:myflutter/5.3/counter.dart';
+import 'package:myflutter/5.3/utils.dart';
 
 void main() {
   runApp(Counter());
@@ -20,20 +21,23 @@ class _CounterState extends State<Counter> {
       home: Scaffold(
         appBar: AppBar(
           title: Text('Counting App',
-          style: TextStyle(
-            color: Colors.white
-          ),),
+            style: TextStyle(
+                color: Colors.white
+            ),),
           backgroundColor: Colors.blue,
           centerTitle: true,
         ),
-        body: Center(
-child: Text('$count'),
+        body: Column(
+          children: List.generate(table.length, (index) => Text('5 x ${table[index]} = ${5*table[index]}',style: TextStyle(
+              color: Colors.blue
+          ),))
         ),
         floatingActionButton: FloatingActionButton(
           onPressed: () {
             setState(() {
               count++;
-              print('$count');
+              print('5 x $count = ${5*count}');
+              table.add(count);
             }
             );
           },
