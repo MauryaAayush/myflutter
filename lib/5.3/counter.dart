@@ -37,7 +37,7 @@ child: Text('$count'),
             }
             );
           },
-          child: Icon(Icons.add),
+          child: const Icon(Icons.add),
         ),
       ),
     );
