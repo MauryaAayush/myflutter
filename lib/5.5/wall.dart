@@ -22,74 +22,18 @@ class _WallState extends State<Wall> {
         backgroundColor: Colors.white,
         appBar: AppBar(
           centerTitle: true,
-          backgroundColor: Color(0xFF212121),
+          backgroundColor: const Color(0xFF212121),
           title: const Text('THE WALL',style: TextStyle(
             color: Colors.white,
           ),
           ),
         ),
-        body: Container(
-          child: SingleChildScrollView(
-            scrollDirection: Axis.vertical,
-            child: Column(
-              children: [
-                Row(
-                  children: [
-                    Container(
-                      margin: EdgeInsets.symmetric(vertical: 10),
-                      height: 95,
-                      width: 100,
-                      decoration: const BoxDecoration(
-                        color: Color(0xFF5D4037),
-                      ),
-                    ),
-                    Container(
-                      margin: EdgeInsets.symmetric(vertical: 10,horizontal: 10),
-                      height: 95,
-                      width: 191.1,
-                      decoration: const BoxDecoration(
-                        color: Color(0xFF5D4037),
-                      ),
-                    ),
-                    Container(
-                      margin: const EdgeInsets.symmetric(vertical: 10),
-                      height: 95,
-                      width: 100,
-                      decoration: const BoxDecoration(
-                        color: Color(0xFF5D4037),
-                      ),
-                    ),
-                  ],
-                ),
-                Row(
-                  children: [
-                    Container(
-                      margin: const EdgeInsets.symmetric(vertical: 1),
-                      height: 95,
-                      width: 130,
-                      decoration: const BoxDecoration(
-                        color: Color(0xFF5D4037),
-                      ),
-                    ),
-                    Container(
-                      margin: const EdgeInsets.symmetric(vertical: 1,horizontal: 10),
-                      height: 95,
-                      width: 130,
-                      decoration: const BoxDecoration(
-                        color: Color(0xFF5D4037),
-                      ),
-                    ),
-                    Container(
-                      margin: const EdgeInsets.symmetric(vertical: 1),
-                      height: 95,
-                      width: 131.4,
-                      decoration: const BoxDecoration(
-                        color: Color(0xFF5D4037),
-                      ),
-                    ),
-                  ],
-                ),
-                Row(children: [
+        body: SingleChildScrollView(
+          scrollDirection: Axis.vertical,
+          child: Column(
+            children: [
+              Row(
+                children: [
                   Container(
                     margin: const EdgeInsets.symmetric(vertical: 10),
                     height: 95,
@@ -99,7 +43,7 @@ class _WallState extends State<Wall> {
                     ),
                   ),
                   Container(
-                    margin: const EdgeInsets.symmetric(vertical: 10,horizontal: 10),
+                    margin: EdgeInsets.symmetric(vertical: 10,horizontal: 10),
                     height: 95,
                     width: 191.1,
                     decoration: const BoxDecoration(
@@ -114,61 +58,10 @@ class _WallState extends State<Wall> {
                       color: Color(0xFF5D4037),
                     ),
                   ),
-                ],),
-                Row(children: [
-                  Container(
-                    margin: const EdgeInsets.symmetric(vertical: 1),
-                    height: 95,
-                    width: 130,
-                    decoration: const BoxDecoration(
-                      color: Color(0xFF5D4037),
-                    ),
-                  ),
-                  Container(
-                    margin: const EdgeInsets.symmetric(vertical: 1,horizontal: 10),
-                    height: 95,
-                    width: 130,
-                    decoration: const BoxDecoration(
-                      color: Color(0xFF5D4037),
-                    ),
-                  ),
-                  Container(
-                    margin: const EdgeInsets.symmetric(vertical: 1),
-                    height: 95,
-                    width: 131.4,
-                    decoration: const BoxDecoration(
-                      color: Color(0xFF5D4037),
-                    ),
-                  ),
-                ],),
-                Row(children: [
-                  Container(
-                    margin: const EdgeInsets.symmetric(vertical: 10),
-                    height: 95,
-                    width: 100,
-                    decoration: const BoxDecoration(
-                      color: Color(0xFF5D4037),
-                    ),
-                  ),
-                  Container(
-                    margin: const EdgeInsets.symmetric(vertical: 10,horizontal: 10),
-                    height: 95,
-                    width: 191.1,
-                    decoration: const BoxDecoration(
-                      color: Color(0xFF5D4037),
-                    ),
-                  ),
-                  Container(
-                    margin: const EdgeInsets.symmetric(vertical: 10),
-                    height: 95,
-                    width: 100,
-                    decoration: const BoxDecoration(
-                      color: Color(0xFF5D4037),
-                    ),
-                  ),
-                ],),
-                Row(
-                  children: [
+                ],
+              ),
+              Row(
+                children: [
                   Container(
                     margin: const EdgeInsets.symmetric(vertical: 1),
                     height: 95,
@@ -194,63 +87,168 @@ class _WallState extends State<Wall> {
                     ),
                   ),
                 ],
+              ),
+              Row(children: [
+                Container(
+                  margin: const EdgeInsets.symmetric(vertical: 10),
+                  height: 95,
+                  width: 100,
+                  decoration: const BoxDecoration(
+                    color: Color(0xFF5D4037),
+                  ),
                 ),
-                Row(children: [
-                  Container(
-                    margin: const EdgeInsets.symmetric(vertical: 10),
-                    height: 95,
-                    width: 100,
-                    decoration: const BoxDecoration(
-                      color: Color(0xFF5D4037),
-                    ),
+                Container(
+                  margin: const EdgeInsets.symmetric(vertical: 10,horizontal: 10),
+                  height: 95,
+                  width: 191.1,
+                  decoration: const BoxDecoration(
+                    color: Color(0xFF5D4037),
                   ),
-                  Container(
-                    margin: const EdgeInsets.symmetric(vertical: 10,horizontal: 10),
-                    height: 95,
-                    width: 191.1,
-                    decoration: const BoxDecoration(
-                      color: Color(0xFF5D4037),
-                    ),
+                ),
+                Container(
+                  margin: const EdgeInsets.symmetric(vertical: 10),
+                  height: 95,
+                  width: 100,
+                  decoration: const BoxDecoration(
+                    color: Color(0xFF5D4037),
                   ),
-                  Container(
-                    margin: const EdgeInsets.symmetric(vertical: 10),
-                    height: 95,
-                    width: 100,
-                    decoration: const BoxDecoration(
-                      color: Color(0xFF5D4037),
-                    ),
+                ),
+              ],),
+              Row(children: [
+                Container(
+                  margin: const EdgeInsets.symmetric(vertical: 1),
+                  height: 95,
+                  width: 130,
+                  decoration: const BoxDecoration(
+                    color: Color(0xFF5D4037),
                   ),
-                ],),
-                Row(
-                  children: [
-                    Container(
-                      margin: const EdgeInsets.symmetric(vertical: 1),
-                      height: 95,
-                      width: 130,
-                      decoration: const BoxDecoration(
-                        color: Color(0xFF5D4037),
-                      ),
-                    ),
-                    Container(
-                      margin: const EdgeInsets.symmetric(vertical: 1,horizontal: 10),
-                      height: 95,
-                      width: 130,
-                      decoration: BoxDecoration(
-                        color: Color(0xFF5D4037),
-                      ),
-                    ),
-                    Container(
-                      margin: EdgeInsets.symmetric(vertical: 1),
-                      height: 95,
-                      width: 131.4,
-                      decoration: BoxDecoration(
-                        color: Color(0xFF5D4037),
-                      ),
-                    ),
-                  ],
-                )
+                ),
+                Container(
+                  margin: const EdgeInsets.symmetric(vertical: 1,horizontal: 10),
+                  height: 95,
+                  width: 130,
+                  decoration: const BoxDecoration(
+                    color: Color(0xFF5D4037),
+                  ),
+                ),
+                Container(
+                  margin: const EdgeInsets.symmetric(vertical: 1),
+                  height: 95,
+                  width: 131.4,
+                  decoration: const BoxDecoration(
+                    color: Color(0xFF5D4037),
+                  ),
+                ),
+              ],),
+              Row(children: [
+                Container(
+                  margin: const EdgeInsets.symmetric(vertical: 10),
+                  height: 95,
+                  width: 100,
+                  decoration: const BoxDecoration(
+                    color: Color(0xFF5D4037),
+                  ),
+                ),
+                Container(
+                  margin: const EdgeInsets.symmetric(vertical: 10,horizontal: 10),
+                  height: 95,
+                  width: 191.1,
+                  decoration: const BoxDecoration(
+                    color: Color(0xFF5D4037),
+                  ),
+                ),
+                Container(
+                  margin: const EdgeInsets.symmetric(vertical: 10),
+                  height: 95,
+                  width: 100,
+                  decoration: const BoxDecoration(
+                    color: Color(0xFF5D4037),
+                  ),
+                ),
+              ],),
+              Row(
+                children: [
+                Container(
+                  margin: const EdgeInsets.symmetric(vertical: 1),
+                  height: 95,
+                  width: 130,
+                  decoration: const BoxDecoration(
+                    color: Color(0xFF5D4037),
+                  ),
+                ),
+                Container(
+                  margin: const EdgeInsets.symmetric(vertical: 1,horizontal: 10),
+                  height: 95,
+                  width: 130,
+                  decoration: const BoxDecoration(
+                    color: Color(0xFF5D4037),
+                  ),
+                ),
+                Container(
+                  margin: const EdgeInsets.symmetric(vertical: 1),
+                  height: 95,
+                  width: 131.4,
+                  decoration: const BoxDecoration(
+                    color: Color(0xFF5D4037),
+                  ),
+                ),
               ],
-            ),
+              ),
+              Row(children: [
+                Container(
+                  margin: const EdgeInsets.symmetric(vertical: 10),
+                  height: 95,
+                  width: 100,
+                  decoration: const BoxDecoration(
+                    color: Color(0xFF5D4037),
+                  ),
+                ),
+                Container(
+                  margin: const EdgeInsets.symmetric(vertical: 10,horizontal: 10),
+                  height: 95,
+                  width: 191.1,
+                  decoration: const BoxDecoration(
+                    color: Color(0xFF5D4037),
+                  ),
+                ),
+                Container(
+                  margin: const EdgeInsets.symmetric(vertical: 10),
+                  height: 95,
+                  width: 100,
+                  decoration: const BoxDecoration(
+                    color: Color(0xFF5D4037),
+                  ),
+                ),
+              ],),
+              Row(
+                children: [
+                  Container(
+                    margin: const EdgeInsets.symmetric(vertical: 1),
+                    height: 95,
+                    width: 130,
+                    decoration: const BoxDecoration(
+                      color: Color(0xFF5D4037),
+                    ),
+                  ),
+                  Container(
+                    margin: const EdgeInsets.symmetric(vertical: 1,horizontal: 10),
+                    height: 95,
+                    width: 130,
+                    decoration: const BoxDecoration(
+                      color: Color(0xFF5D4037),
+                    ),
+                  ),
+                  Container(
+                    margin: const EdgeInsets.symmetric(vertical: 1),
+                    height: 95,
+                    width: 131.4,
+                    decoration: const BoxDecoration(
+                      color: Color(0xFF5D4037),
+                    ),
+                  ),
+                ],
+              )
+            ],
           ),
         ),
       ),
