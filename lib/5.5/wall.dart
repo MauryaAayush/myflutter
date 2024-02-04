@@ -29,43 +29,228 @@ class _WallState extends State<Wall> {
           ),
         ),
         body: Container(
-          child: Column(
-            children: [
-              Row(
-                children: [
+          child: SingleChildScrollView(
+            scrollDirection: Axis.vertical,
+            child: Column(
+              children: [
+                Row(
+                  children: [
+                    Container(
+                      margin: EdgeInsets.symmetric(vertical: 10),
+                      height: 95,
+                      width: 100,
+                      decoration: BoxDecoration(
+                        color: Color(0xFF5D4037),
+                      ),
+                    ),
+                    Container(
+                      margin: EdgeInsets.symmetric(vertical: 10,horizontal: 10),
+                      height: 95,
+                      width: 191.1,
+                      decoration: BoxDecoration(
+                        color: Color(0xFF5D4037),
+                      ),
+                    ),
+                    Container(
+                      margin: EdgeInsets.symmetric(vertical: 10),
+                      height: 95,
+                      width: 100,
+                      decoration: BoxDecoration(
+                        color: Color(0xFF5D4037),
+                      ),
+                    ),
+                  ],
+                ),
+                Row(
+                  children: [
+                    Container(
+                      margin: EdgeInsets.symmetric(vertical: 1),
+                      height: 95,
+                      width: 130,
+                      decoration: BoxDecoration(
+                        color: Color(0xFF5D4037),
+                      ),
+                    ),
+                    Container(
+                      margin: EdgeInsets.symmetric(vertical: 1,horizontal: 10),
+                      height: 95,
+                      width: 130,
+                      decoration: BoxDecoration(
+                        color: Color(0xFF5D4037),
+                      ),
+                    ),
+                    Container(
+                      margin: EdgeInsets.symmetric(vertical: 1),
+                      height: 95,
+                      width: 131.4,
+                      decoration: BoxDecoration(
+                        color: Color(0xFF5D4037),
+                      ),
+                    ),
+                  ],
+                ),
+                Row(children: [
                   Container(
                     margin: EdgeInsets.symmetric(vertical: 10),
-                    height: 100,
+                    height: 95,
                     width: 100,
                     decoration: BoxDecoration(
-                      color: Colors.brown,
+                      color: Color(0xFF5D4037),
                     ),
                   ),
                   Container(
                     margin: EdgeInsets.symmetric(vertical: 10,horizontal: 10),
-                    height: 100,
+                    height: 95,
                     width: 191.1,
                     decoration: BoxDecoration(
-                      color: Colors.brown,
+                      color: Color(0xFF5D4037),
                     ),
                   ),
                   Container(
                     margin: EdgeInsets.symmetric(vertical: 10),
-                    height: 100,
+                    height: 95,
                     width: 100,
                     decoration: BoxDecoration(
-                      color: Colors.brown,
+                      color: Color(0xFF5D4037),
+                    ),
+                  ),
+                ],),
+                Row(children: [
+                  Container(
+                    margin: EdgeInsets.symmetric(vertical: 1),
+                    height: 95,
+                    width: 130,
+                    decoration: BoxDecoration(
+                      color: Color(0xFF5D4037),
+                    ),
+                  ),
+                  Container(
+                    margin: EdgeInsets.symmetric(vertical: 1,horizontal: 10),
+                    height: 95,
+                    width: 130,
+                    decoration: BoxDecoration(
+                      color: Color(0xFF5D4037),
+                    ),
+                  ),
+                  Container(
+                    margin: EdgeInsets.symmetric(vertical: 1),
+                    height: 95,
+                    width: 131.4,
+                    decoration: BoxDecoration(
+                      color: Color(0xFF5D4037),
+                    ),
+                  ),
+                ],),
+                Row(children: [
+                  Container(
+                    margin: EdgeInsets.symmetric(vertical: 10),
+                    height: 95,
+                    width: 100,
+                    decoration: BoxDecoration(
+                      color: Color(0xFF5D4037),
+                    ),
+                  ),
+                  Container(
+                    margin: EdgeInsets.symmetric(vertical: 10,horizontal: 10),
+                    height: 95,
+                    width: 191.1,
+                    decoration: BoxDecoration(
+                      color: Color(0xFF5D4037),
+                    ),
+                  ),
+                  Container(
+                    margin: EdgeInsets.symmetric(vertical: 10),
+                    height: 95,
+                    width: 100,
+                    decoration: BoxDecoration(
+                      color: Color(0xFF5D4037),
+                    ),
+                  ),
+                ],),
+                Row(
+                  children: [
+                  Container(
+                    margin: EdgeInsets.symmetric(vertical: 1),
+                    height: 95,
+                    width: 130,
+                    decoration: BoxDecoration(
+                      color: Color(0xFF5D4037),
+                    ),
+                  ),
+                  Container(
+                    margin: EdgeInsets.symmetric(vertical: 1,horizontal: 10),
+                    height: 95,
+                    width: 130,
+                    decoration: BoxDecoration(
+                      color: Color(0xFF5D4037),
+                    ),
+                  ),
+                  Container(
+                    margin: EdgeInsets.symmetric(vertical: 1),
+                    height: 95,
+                    width: 131.4,
+                    decoration: BoxDecoration(
+                      color: Color(0xFF5D4037),
                     ),
                   ),
                 ],
-              ),
-              Row(),
-              Row(),
-              Row(),
-              Row(),
-              Row(),
-              Row(),
-            ],
+                ),
+                Row(children: [
+                  Container(
+                    margin: EdgeInsets.symmetric(vertical: 10),
+                    height: 95,
+                    width: 100,
+                    decoration: BoxDecoration(
+                      color: Color(0xFF5D4037),
+                    ),
+                  ),
+                  Container(
+                    margin: EdgeInsets.symmetric(vertical: 10,horizontal: 10),
+                    height: 95,
+                    width: 191.1,
+                    decoration: BoxDecoration(
+                      color: Color(0xFF5D4037),
+                    ),
+                  ),
+                  Container(
+                    margin: EdgeInsets.symmetric(vertical: 10),
+                    height: 95,
+                    width: 100,
+                    decoration: BoxDecoration(
+                      color: Color(0xFF5D4037),
+                    ),
+                  ),
+                ],),
+                Row(
+                  children: [
+                    Container(
+                      margin: EdgeInsets.symmetric(vertical: 1),
+                      height: 95,
+                      width: 130,
+                      decoration: BoxDecoration(
+                        color: Color(0xFF5D4037),
+                      ),
+                    ),
+                    Container(
+                      margin: EdgeInsets.symmetric(vertical: 1,horizontal: 10),
+                      height: 95,
+                      width: 130,
+                      decoration: BoxDecoration(
+                        color: Color(0xFF5D4037),
+                      ),
+                    ),
+                    Container(
+                      margin: EdgeInsets.symmetric(vertical: 1),
+                      height: 95,
+                      width: 131.4,
+                      decoration: BoxDecoration(
+                        color: Color(0xFF5D4037),
+                      ),
+                    ),
+                  ],
+                )
+              ],
+            ),
           ),
         ),
       ),
