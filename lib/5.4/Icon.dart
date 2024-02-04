@@ -15,8 +15,34 @@ class Icons extends StatefulWidget {
 class _IconsState extends State<Icons> {
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
+    return  MaterialApp(
+        debugShowCheckedModeBanner: true,
+      home: Scaffold(
+        appBar: AppBar(
+          centerTitle: true,
+          title: Text('Icons'),
+          backgroundColor: Colors.white,
+          elevation: 10,
+          shadowColor: Colors.black,
+        ),
 
+        body: Column(
+          children: [
+            Row(
+              children: [
+                Container(
+                  height: 100,
+                  width: 100,
+                  decoration: BoxDecoration(
+                    color: Colors.grey,
+                  ),
+                )
+              ],
+            )
+          ],
+        ),
+      )
+      ,
     );
   }
 }
