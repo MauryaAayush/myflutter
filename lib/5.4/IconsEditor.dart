@@ -21,6 +21,8 @@ class _SelectorState extends State<Selector> {
         backgroundColor: Color(0xFFEFF1F3),
         appBar: AppBar(
           backgroundColor: Colors.white,
+          title: Text('Icons Editor'),
+          centerTitle: true,
         ),
         body: Container(),
       ),
