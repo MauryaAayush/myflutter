@@ -107,7 +107,7 @@ class _WallState extends State<Wall> {
                     ),
                   ),
                   Container(
-                    margin: EdgeInsets.symmetric(vertical: 10),
+                    margin: const EdgeInsets.symmetric(vertical: 10),
                     height: 95,
                     width: 100,
                     decoration: const BoxDecoration(
