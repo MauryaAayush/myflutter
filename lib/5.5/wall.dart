@@ -23,7 +23,7 @@ class _WallState extends State<Wall> {
         appBar: AppBar(
           centerTitle: true,
           backgroundColor: Color(0xFF212121),
-          title: Text('THE WALL',style: TextStyle(
+          title: const Text('THE WALL',style: TextStyle(
             color: Colors.white,
           ),
           ),
