@@ -17,7 +17,7 @@ class _IconsState extends State<Icons> {
   @override
   Widget build(BuildContext context) {
     return  MaterialApp(
-        debugShowCheckedModeBanner: true,
+        debugShowCheckedModeBanner: false,
       home: Scaffold(
         backgroundColor: Color(0xFFFEFEFE),
         appBar: AppBar(
@@ -28,60 +28,90 @@ class _IconsState extends State<Icons> {
           shadowColor: Colors.black,
         ),
 
-        body: Column(
-          children: [
-            SingleChildScrollView(
-              scrollDirection: Axis.horizontal,
-              child: Row(
-                children: List.generate(i1.length, (index) => products(i1[index]['icon']) )
-              ),
-            ),
-            Container(
-              color: Colors.white,
-              child: SingleChildScrollView(
+        body: SingleChildScrollView(
+          scrollDirection: Axis.vertical,
+          child: Column(
+            children: [
+              SingleChildScrollView(
                 scrollDirection: Axis.horizontal,
                 child: Row(
-                  children: List.generate(i2.length, (index) => products(i2[index]['icon']) )
+                  children: List.generate(i1.length, (index) => products(i1[index]['icon']) )
                 ),
               ),
-            ),
-            Container(
-              color: Colors.white,
-              child: SingleChildScrollView(
-                scrollDirection: Axis.horizontal,
-                child: Row(
-                  children: List.generate(i3.length, (index) => products(i3[index]['icon']) )
+              Container(
+                color: Colors.white,
+                child: SingleChildScrollView(
+                  scrollDirection: Axis.horizontal,
+                  child: Row(
+                    children: List.generate(i2.length, (index) => products(i2[index]['icon']) )
+                  ),
                 ),
               ),
-            ),
-            Container(
-              color: Colors.white,
-              child: SingleChildScrollView(
-                scrollDirection: Axis.horizontal,
-                child: Row(
-                  children: List.generate(i4.length, (index) => products(i4[index]['icon']) )
+              Container(
+                color: Colors.white,
+                child: SingleChildScrollView(
+                  scrollDirection: Axis.horizontal,
+                  child: Row(
+                    children: List.generate(i3.length, (index) => products(i3[index]['icon']) )
+                  ),
                 ),
               ),
-            ),
-            Container(
-              color: Colors.white,
-              child: SingleChildScrollView(
-                scrollDirection: Axis.horizontal,
-                child: Row(
-                  children: List.generate(i5.length, (index) => products(i5[index]['icon']) )
+              Container(
+                color: Colors.white,
+                child: SingleChildScrollView(
+                  scrollDirection: Axis.horizontal,
+                  child: Row(
+                    children: List.generate(i4.length, (index) => products(i4[index]['icon']) )
+                  ),
                 ),
               ),
-            ),
-            Container(
-              color: Colors.white,
-              child: SingleChildScrollView(
-                scrollDirection: Axis.horizontal,
-                child: Row(
-                  children: List.generate(i6.length, (index) => products(i6[index]['icon']) )
+              Container(
+                color: Colors.white,
+                child: SingleChildScrollView(
+                  scrollDirection: Axis.horizontal,
+                  child: Row(
+                    children: List.generate(i5.length, (index) => products(i5[index]['icon']) )
+                  ),
                 ),
               ),
-            ),
-          ],
+              Container(
+                color: Colors.white,
+                child: SingleChildScrollView(
+                  scrollDirection: Axis.horizontal,
+                  child: Row(
+                    children: List.generate(i6.length, (index) => products(i6[index]['icon']) )
+                  ),
+                ),
+              ),
+              Container(
+                color: Colors.white,
+                child: SingleChildScrollView(
+                  scrollDirection: Axis.horizontal,
+                  child: Row(
+                      children: List.generate(i4.length, (index) => products(i4[index]['icon']) )
+                  ),
+                ),
+              ),
+              Container(
+                color: Colors.white,
+                child: SingleChildScrollView(
+                  scrollDirection: Axis.horizontal,
+                  child: Row(
+                      children: List.generate(i3.length, (index) => products(i3[index]['icon']) )
+                  ),
+                ),
+              ),
+              Container(
+                color: Colors.white,
+                child: SingleChildScrollView(
+                  scrollDirection: Axis.horizontal,
+                  child: Row(
+                      children: List.generate(i2.length, (index) => products(i2[index]['icon']) )
+                  ),
+                ),
+              ),
+            ],
+          ),
         ),
       )
       ,
