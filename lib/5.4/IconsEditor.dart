@@ -47,11 +47,20 @@ class _SelectorState extends State<Selector> {
         body: Column(
           children: [
             Container(
-              margin: EdgeInsets.only(top: 20),
-              child: Icon(
-                icons[selectedIconIndex],
-                size: 60,
-                color: colors[selectedColorIndex],
+              margin: EdgeInsets.symmetric(vertical: 20),
+              height: 280,
+              width: 390,
+              decoration: BoxDecoration(
+                color: Colors.white,
+
+              ),
+              child: Container(
+                margin: EdgeInsets.only(top: 20),
+                child: Icon(
+                  icons[selectedIconIndex],
+                  size: 60,
+                  color: colors[selectedColorIndex],
+                ),
               ),
             ),
 
