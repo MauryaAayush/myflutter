@@ -18,14 +18,25 @@ class _SelectorState extends State<Selector> {
     Colors.blue,
     Colors.yellow,
     Colors.purple,
+    Colors.cyan,
+    Colors.orange,
+    Colors.deepOrange,
+    Colors.brown,
+    Colors.amber,
+
   ];
 
   List<IconData> icons = [
+    Icons.add,
+    Icons.access_alarm,
+    Icons.search,
     Icons.android,
     Icons.add_call,
     Icons.add_circle,
-    Icons.account_balance,
-    Icons.add_box,
+    Icons.arrow_back_ios_new,
+    Icons.arrow_forward_ios_outlined,
+    Icons.security,
+    Icons.accessibility_new,
   ];
 
   int selectedColorIndex = 0;
@@ -52,82 +63,173 @@ class _SelectorState extends State<Selector> {
               width: 390,
               decoration: BoxDecoration(
                 color: Colors.white,
-
+                borderRadius: BorderRadius.all(Radius.circular(20)),
+                boxShadow: [
+                  BoxShadow(
+                    color: Colors.grey,
+                    blurRadius: 2,
+                    spreadRadius: 0.01,
+                  ),
+                ]
               ),
               child: Container(
                 margin: EdgeInsets.only(top: 20),
                 child: Icon(
                   icons[selectedIconIndex],
-                  size: 60,
+                  size: 100,
                   color: colors[selectedColorIndex],
                 ),
               ),
             ),
+            Container(
+              padding: EdgeInsets.symmetric(vertical: 16,horizontal: 131),
+              height: 60,
+              width: 390,
+              decoration: BoxDecoration(
+                color: Colors.white,
+                borderRadius: BorderRadius.all(Radius.circular(10)),
+                boxShadow: [
+                  BoxShadow(
+                      color: Colors.grey,
+                    blurRadius: 2,
+                    spreadRadius: 0.01,
+                  ),
+                ]
+              ),
+              child: Text('Select Color',style: TextStyle(
+                color: Colors.black54,
+                fontSize: 23,
+                fontWeight: FontWeight.w500,
+              ),),
+            ),
 
             Container(
               margin: EdgeInsets.symmetric(vertical: 20),
-              height: 100,
-              child: ListView.builder(
-                scrollDirection: Axis.horizontal,
-                itemCount: icons.length,
-                itemBuilder: (context, index) {
-                  return GestureDetector(
-                    onTap: () {
-                      setState(() {
-                        selectedIconIndex = index;
-                      });
-                    },
-                    child: Container(
-                      width: 80,
-                      height: 80,
-                      margin: EdgeInsets.all(8),
-                      decoration: BoxDecoration(
-                        color: Colors.white,
-                        borderRadius: BorderRadius.circular(16),
-                        border: selectedIconIndex == index
-                            ? Border.all(color: Colors.black, width: 2)
-                            : null,
-                      ),
-                      child: Icon(
-                        icons[index],
-                        size: 40,
-                        color: colors[selectedColorIndex],
-                      ),
+              height: 120,
+              width: 390,
+              decoration: BoxDecoration(
+                  color: Colors.white,
+                  borderRadius: BorderRadius.all(Radius.circular(10)),
+                  boxShadow: [
+                    BoxShadow(
+                      color: Colors.grey,
+                      blurRadius: 2,
+                      spreadRadius: 0.01,
                     ),
-                  );
-                },
+                  ]
+              ),
+              child: Container(
+                margin: EdgeInsets.symmetric(vertical: 5),
+                height: 100,
+                child: ListView.builder(
+                  scrollDirection: Axis.horizontal,
+                  itemCount: colors.length,
+                  itemBuilder: (context, index) {
+                    return GestureDetector(
+                      onTap: () {
+                        setState(() {
+                          selectedColorIndex = index;
+                        });
+                      },
+                      child: Container(
+                        width: 90,
+                        height: 80,
+                        margin: EdgeInsets.all(10),
+                        decoration: BoxDecoration(
+                          color: colors[index],
+                          borderRadius: BorderRadius.circular(16),
+                          border: selectedColorIndex == index
+                              ? Border.all(color: Colors.black26, width: 2)
+                              : null,
+                        ),
+                      ),
+                    );
+                  },
+                ),
+              ),
+            ),
+            Container(
+              padding: EdgeInsets.symmetric(vertical: 16,horizontal: 130),
+              height: 60,
+              width: 390,
+              decoration: BoxDecoration(
+                  color: Colors.white,
+                  borderRadius: BorderRadius.all(Radius.circular(10)),
+                  boxShadow: [
+                    BoxShadow(
+                      color: Colors.grey,
+                      blurRadius: 2,
+                      spreadRadius: 0.01,
+                    ),
+                  ]
+              ),
+              child: Text('Select Icon',style: TextStyle(
+                color: Colors.black54,
+                fontSize: 23,
+                fontWeight: FontWeight.w500,
+              ),),
+            ),
+
+            Container(
+              margin: EdgeInsets.symmetric(vertical: 20,horizontal: 10),
+              height: 120,
+              width: 390,
+              decoration: BoxDecoration(
+                  color: Colors.white,
+                  borderRadius: BorderRadius.all(Radius.circular(10)),
+                  boxShadow: [
+                    BoxShadow(
+                      color: Colors.grey,
+                      blurRadius: 2,
+                      spreadRadius: 0.01,
+                    ),
+                  ]
+              ),
+
+              child: Container(
+                margin: EdgeInsets.symmetric(vertical: 10),
+                height: 100,
+                child: ListView.builder(
+                  scrollDirection: Axis.horizontal,
+                  itemCount: icons.length,
+                  itemBuilder: (context, index) {
+                    return GestureDetector(
+                      onTap: () {
+                        setState(() {
+                          selectedIconIndex = index;
+                        });
+                      },
+                      child: Container(
+                        width: 80,
+                        height: 80,
+                        margin: EdgeInsets.all(8),
+                        decoration: BoxDecoration(
+                          color: Colors.white,
+                          boxShadow: [
+                            BoxShadow(
+                              color: Colors.black12,
+                              spreadRadius: 0.01,
+                              blurRadius: 2,
+                            )
+                          ],
+                          borderRadius: BorderRadius.circular(16),
+                          border: selectedIconIndex == index
+                              ? Border.all(color: Colors.black12, width: 2)
+                              : null,
+                        ),
+                        child: Icon(
+                          icons[index],
+                          size: 40,
+                          color: colors[selectedColorIndex],
+                        ),
+                      ),
+                    );
+                  },
+                ),
               ),
             ),
             
-            Container(
-              margin: EdgeInsets.symmetric(vertical: 20),
-              height: 100,
-              child: ListView.builder(
-                scrollDirection: Axis.horizontal,
-                itemCount: colors.length,
-                itemBuilder: (context, index) {
-                  return GestureDetector(
-                    onTap: () {
-                      setState(() {
-                        selectedColorIndex = index;
-                      });
-                    },
-                    child: Container(
-                      width: 80,
-                      height: 80,
-                      margin: EdgeInsets.all(8),
-                      decoration: BoxDecoration(
-                        color: colors[index],
-                        borderRadius: BorderRadius.circular(16),
-                        border: selectedColorIndex == index
-                            ? Border.all(color: Colors.black, width: 2)
-                            : null,
-                      ),
-                    ),
-                  );
-                },
-              ),
-            ),
+
             // Display the selected icon at the center
 
           ],
