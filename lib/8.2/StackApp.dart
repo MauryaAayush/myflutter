@@ -164,7 +164,7 @@ class _StackappState extends State<Stackapp> {
                         )
                       ]
                   ),
-                  child: Text('Amber',style: TextStyle(
+                  child: const Text('Amber',style: TextStyle(
                     color: Colors.white,
                     fontSize: 25,
                     fontWeight: FontWeight.w600,
