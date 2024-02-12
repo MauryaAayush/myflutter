@@ -191,7 +191,7 @@ class _StackappState extends State<Stackapp> {
                         )
                       ]
                   ),
-                  child: Text('Orange',style: TextStyle(
+                  child: const Text('Orange',style: TextStyle(
                     color: Colors.white,
                     fontSize: 25,
                     fontWeight: FontWeight.w600,
