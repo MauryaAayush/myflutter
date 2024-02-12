@@ -20,7 +20,7 @@ class _StackappState extends State<Stackapp> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      debugShowCheckedModeBanner: true,
+      debugShowCheckedModeBanner: false,
       home: SafeArea(
         child: Scaffold(
           appBar: AppBar(
@@ -64,7 +64,7 @@ class _StackappState extends State<Stackapp> {
               ),
 
               Positioned(
-                top: 60,
+                top: 65,
                 left: 55,
                 child: Container(
                   padding: EdgeInsets.symmetric(horizontal: 10,vertical: 10),
@@ -91,7 +91,7 @@ class _StackappState extends State<Stackapp> {
               ),
 
               Positioned(
-                top: 100,
+                top: 110,
                 left: 95,
                 child: Container(
                   padding: EdgeInsets.symmetric(horizontal: 10,vertical: 10),
@@ -113,13 +113,14 @@ class _StackappState extends State<Stackapp> {
                     color: Colors.white,
                     fontSize: 25,
                     fontWeight: FontWeight.w600,
+                    letterSpacing: 0
                   ),),
                 ),
               ),
 
               Positioned(
-                top: 145,
-                left: 140,
+                top: 150,
+                left: 135,
                 child: Container(
                   padding: EdgeInsets.symmetric(horizontal: 10,vertical: 10),
                   height: 150,
@@ -145,7 +146,7 @@ class _StackappState extends State<Stackapp> {
               ),
 
               Positioned(
-                top: 188,
+                top: 190,
                 right: 85,
                 child: Container(
                   padding: EdgeInsets.symmetric(horizontal: 10,vertical: 10),
@@ -172,8 +173,8 @@ class _StackappState extends State<Stackapp> {
               ),
 
               Positioned(
-                top: 235,
-                right: 60,
+                top: 232,
+                right: 45,
                 child: Container(
                   padding: EdgeInsets.symmetric(horizontal: 10,vertical: 10),
                   height: 150,
@@ -200,7 +201,7 @@ class _StackappState extends State<Stackapp> {
 
               Positioned(
                 top: 280,
-                right: 20,
+                right: 10,
                 child: Container(
                   padding: EdgeInsets.symmetric(horizontal: 10,vertical: 10),
                   height: 150,
