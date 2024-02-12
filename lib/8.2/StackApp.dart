@@ -218,7 +218,7 @@ class _StackappState extends State<Stackapp> {
                         )
                       ]
                   ),
-                  child: Text('RedAccent',style: TextStyle(
+                  child: const Text('RedAccent',style: TextStyle(
                     color: Colors.white,
                     fontSize: 25,
                     fontWeight: FontWeight.w600,
