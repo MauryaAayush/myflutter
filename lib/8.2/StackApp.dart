@@ -82,7 +82,7 @@ class _StackappState extends State<Stackapp> {
                         )
                       ]
                   ),
-                  child: Text('Indigo',style: TextStyle(
+                  child: const Text('Indigo',style: TextStyle(
                     color: Colors.white,
                     fontSize: 25,
                     fontWeight: FontWeight.w600,
