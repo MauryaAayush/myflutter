@@ -25,7 +25,7 @@ class _StackappState extends State<Stackapp> {
         child: Scaffold(
           appBar: AppBar(
            backgroundColor: Colors.white,
-            title: Text('Stack App',style: TextStyle(
+            title: const Text('Stack App',style: TextStyle(
               color: Colors.black,
               fontSize: 26,
               fontWeight: FontWeight.w600,
