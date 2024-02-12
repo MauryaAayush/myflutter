@@ -94,7 +94,7 @@ class _StackappState extends State<Stackapp> {
                 top: 110,
                 left: 95,
                 child: Container(
-                  padding: EdgeInsets.symmetric(horizontal: 10,vertical: 10),
+                  padding: const EdgeInsets.symmetric(horizontal: 10,vertical: 10),
                   height: 150,
                   width: 150,
                   decoration: const BoxDecoration(
